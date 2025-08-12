@@ -61,7 +61,7 @@ public class App {
                 transaccionAuxiliar = new Transaccion(usuarioAuxiliar);
                 transaccionAuxiliar.setCriptomoneda(criptomonedaAuxiliar);
                 transaccionAuxiliar.setCantidadCripto(cantidadCripto);
-                transaccionAuxiliar.set
+                transaccionAuxiliar.setTipoTransaccion("Compra");
 
                 for (int j = 0; j < cantidadCripto; j++) {
                     usuarioAuxiliar.getPortafolio().add(criptomonedaAuxiliar);
@@ -75,10 +75,16 @@ public class App {
 
             } else if(compraVenta == 0) {
                 criptomonedaAuxiliar = listaAuxiliar.get((int) (Math.random() * listaAuxiliar.size()));
-                cantidadVenderExpectativa = (int) Math.random() * listaAuxiliar.size();
+                cantidadCripto = (int) Math.random();
                 cantidadVenderReal = usuarioAuxiliar.getPortafolio().getCount(criptomonedaAuxiliar);
+                
+                transaccionAuxiliar = new Transaccion(usuarioAuxiliar);
+                transaccionAuxiliar.setCriptomoneda(criptomonedaAuxiliar);
+                transaccionAuxiliar.setTipoTransaccion("Compra");
 
-                if(cantidadVenderExpectativa <= cantidadVenderReal){
+
+
+                if(cantidadCripto <= cantidadVenderReal){
                     usuarioAuxiliar.aumentarSaldo(convertirUSDToCOP(Double.parseDouble(criptomonedaAuxiliar.getPrice_usd())));
                 }
             }
