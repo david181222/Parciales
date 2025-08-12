@@ -38,7 +38,7 @@ public class Transaccion {
     }
 
     public Usuario getUsuario(){
-        return this.getUsuario();
+        return this.usuario;
     }
 
 

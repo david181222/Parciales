@@ -1,7 +1,6 @@
 package parciales.model;
 
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.Objects;
 import java.util.Stack;
 import java.util.UUID;
 
@@ -34,19 +33,17 @@ public class Usuario {
         return this.saldoCop;
     }
 
-    public void disminuirSaldo(double n){
+    public void disminuirSaldo(double n) {
         this.saldoCop -= n;
     }
 
-    public void aumentarSaldo(double n){
-        this.saldoCop -= n;
+    public void aumentarSaldo(double n) {
+        this.saldoCop += n;
     }
 
     public Bag<Criptomoneda> getPortafolio() {
         return this.portafolio;
     }
-
-
 
     public Stack<Transaccion> getHistorial() {
         return this.historial;
@@ -59,6 +56,25 @@ public class Usuario {
                 ", name='" + nombre + '\'' +
                 ", saldo=" + saldoCop +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (!(obj instanceof Usuario))
+            return false;
+        Usuario usuario = (Usuario) obj;
+        if (!id.equals(usuario.id))
+            return false;
+        if (!nombre.equals(usuario.nombre))
+            return false;
+        return saldoCop == usuario.saldoCop;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, nombre, saldoCop);
     }
 
 }
