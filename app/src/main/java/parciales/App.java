@@ -35,7 +35,6 @@ public class App {
         users.add(usuario4);
         users.add(usuario5);
 
-
         Usuario usuarioAuxiliar;
         Criptomoneda criptomonedaAuxiliar;
         GetApi api = new GetApi();
@@ -97,7 +96,7 @@ public class App {
 
             transaccionAuxiliar.getUsuario();
 
-            
+
 
 
 
