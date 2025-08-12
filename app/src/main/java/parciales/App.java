@@ -77,10 +77,10 @@ public class App {
                 criptomonedaAuxiliar = listaAuxiliar.get((int) (Math.random() * listaAuxiliar.size()));
                 cantidadCripto = (int) Math.random();
                 cantidadVenderReal = usuarioAuxiliar.getPortafolio().getCount(criptomonedaAuxiliar);
-                
+
                 transaccionAuxiliar = new Transaccion(usuarioAuxiliar);
                 transaccionAuxiliar.setCriptomoneda(criptomonedaAuxiliar);
-                transaccionAuxiliar.setTipoTransaccion("Compra");
+                transaccionAuxiliar.setTipoTransaccion("Venta");
 
 
 
@@ -97,7 +97,7 @@ public class App {
 
             transaccionAuxiliar.getUsuario();
 
-
+            
 
 
 
@@ -109,7 +109,5 @@ public class App {
         return USD * 4000;
     }
 
-    public static double convertirCOPtoUSD(double COP){
-        return COP / 4000;
-    }
+ 
 }
