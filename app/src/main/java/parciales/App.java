@@ -3,9 +3,107 @@
  */
 package parciales;
 
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+
+import org.apache.commons.collections4.Get;
+import org.checkerframework.checker.units.qual.t;
+
+import parciales.model.Criptomoneda;
+import parciales.model.Usuario;
+import parciales.services.GetApi;
+import parciales.services.Transaccion;
+import parciales.services.TransactionProcessorService;
+
 public class App {
 
-//main
+    // main
     public static void main(String[] args) {
+
+        Usuario usuario1 = new Usuario("User 1", 9000000);
+        Usuario usuario2 = new Usuario("User 2", 90000000);
+        Usuario usuario3 = new Usuario("User 3", 90000000);
+        Usuario usuario4 = new Usuario("User 4", 90000000);
+        Usuario usuario5 = new Usuario("User 5", 90000000);
+ 
+
+        Queue<Usuario> users = new LinkedList<>();
+        users.add(usuario1);
+        users.add(usuario2);
+        users.add(usuario3);
+        users.add(usuario4);
+        users.add(usuario5);
+
+
+        Usuario usuarioAuxiliar;
+        Criptomoneda criptomonedaAuxiliar;
+        GetApi api = new GetApi();
+        List<Criptomoneda> listaAuxiliar = api.getApi();
+        int compraVenta;
+        int cantidadCripto;
+        double precioCripto;
+        int cantidadVenderExpectativa;
+        int cantidadVenderReal;
+
+        Transaccion transaccionAuxiliar;
+
+        for (int i = 0; i < 10; i++) {
+            compraVenta = (int) Math.random();
+
+            usuarioAuxiliar = users.poll();
+
+            if (compraVenta == 1) {
+                criptomonedaAuxiliar = listaAuxiliar.get((int) (Math.random() * listaAuxiliar.size()));
+                cantidadCripto = (int) Math.random();
+                precioCripto = convertirUSDToCOP(Double.parseDouble(criptomonedaAuxiliar.getPrice_usd()));
+
+                transaccionAuxiliar = new Transaccion(usuarioAuxiliar);
+                transaccionAuxiliar.setCriptomoneda(criptomonedaAuxiliar);
+                transaccionAuxiliar.setCantidadCripto(cantidadCripto);
+                transaccionAuxiliar.set
+
+                for (int j = 0; j < cantidadCripto; j++) {
+                    usuarioAuxiliar.getPortafolio().add(criptomonedaAuxiliar);
+                }
+
+                usuarioAuxiliar.getHistorial().add(transaccionAuxiliar);
+
+                if (usuarioAuxiliar.getSaldo() >= precioCripto) {
+                    TransactionProcessorService.meterTransaccion(transaccionAuxiliar);
+                }
+
+            } else if(compraVenta == 0) {
+                criptomonedaAuxiliar = listaAuxiliar.get((int) (Math.random() * listaAuxiliar.size()));
+                cantidadVenderExpectativa = (int) Math.random() * listaAuxiliar.size();
+                cantidadVenderReal = usuarioAuxiliar.getPortafolio().getCount(criptomonedaAuxiliar);
+
+                if(cantidadVenderExpectativa <= cantidadVenderReal){
+                    usuarioAuxiliar.aumentarSaldo(convertirUSDToCOP(Double.parseDouble(criptomonedaAuxiliar.getPrice_usd())));
+                }
+            }
+
+            users.add(usuarioAuxiliar);
+        }
+
+        for (int i = 0; i < 10; i++) {
+            transaccionAuxiliar = TransactionProcessorService.sacarTransaccion();
+
+            transaccionAuxiliar.getUsuario();
+
+
+
+
+
+        }
+
+    }
+
+    public static double convertirUSDToCOP(double USD) {
+        return USD * 4000;
+    }
+
+    public static double convertirCOPtoUSD(double COP){
+        return COP / 4000;
     }
 }
