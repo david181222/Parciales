@@ -1,0 +1,528 @@
+2025-08-13 18:26:22 [main] INFO  parciales.App - Creando usuarios...
+2025-08-13 18:26:22 [main] INFO  parciales.model.Usuario - Usuario creado: User 1 con saldo inicial de $9000000.0 COP
+2025-08-13 18:26:22 [main] INFO  parciales.model.Usuario - Usuario creado: User 2 con saldo inicial de $9.0E7 COP
+2025-08-13 18:26:22 [main] INFO  parciales.model.Usuario - Usuario creado: User 3 con saldo inicial de $9.0E7 COP
+2025-08-13 18:26:22 [main] INFO  parciales.model.Usuario - Usuario creado: User 4 con saldo inicial de $9.0E7 COP
+2025-08-13 18:26:22 [main] INFO  parciales.model.Usuario - Usuario creado: User 5 con saldo inicial de $9.0E7 COP
+2025-08-13 18:26:22 [main] INFO  parciales.App - Añadiendo usuarios a la cola
+2025-08-13 18:26:22 [main] INFO  parciales.services.GetApi - Iniciando llamada a la API de criptomonedas...
+2025-08-13 18:26:22 [main] INFO  parciales.services.GetApi - Enviando solicitud HTTP a: https://api.coinlore.net/api/tickers/
+2025-08-13 18:26:24 [main] INFO  parciales.services.GetApi - API consultada exitosamente. Se obtuvieron 100 criptomonedas
+2025-08-13 18:26:24 [main] INFO  parciales.App - Simulando turnos...
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: User 1
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: BNB para transacción de usuario User 1
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 9 para transacción de usuario User 1
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Venta para usuario User 1
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Venta 9 de BNB por User 1
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: User 2
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: TAO para transacción de usuario User 2
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 6 para transacción de usuario User 2
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Compra para usuario User 2
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Compra 6 de TAO por User 2
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: User 3
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: VET para transacción de usuario User 3
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 5 para transacción de usuario User 3
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Venta para usuario User 3
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Venta 5 de VET por User 3
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: User 4
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: CMETH para transacción de usuario User 4
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 7 para transacción de usuario User 4
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Venta para usuario User 4
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Venta 7 de CMETH por User 4
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: User 5
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: DAI para transacción de usuario User 5
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 10 para transacción de usuario User 5
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Compra para usuario User 5
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Compra 10 de DAI por User 5
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: User 1
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: CRV para transacción de usuario User 1
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 10 para transacción de usuario User 1
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Compra para usuario User 1
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Compra 10 de CRV por User 1
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: User 2
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: KAIA para transacción de usuario User 2
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 4 para transacción de usuario User 2
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Compra para usuario User 2
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Compra 4 de KAIA por User 2
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: User 3
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: IMX para transacción de usuario User 3
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 8 para transacción de usuario User 3
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Venta para usuario User 3
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Venta 8 de IMX por User 3
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: User 4
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: SPX para transacción de usuario User 4
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 9 para transacción de usuario User 4
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Compra para usuario User 4
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Compra 9 de SPX por User 4
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: User 5
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: APT para transacción de usuario User 5
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 1 para transacción de usuario User 5
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Compra para usuario User 5
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Compra 1 de APT por User 5
+2025-08-13 18:26:24 [main] INFO  parciales.App - Desencolando transacciones...
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Venta 9 de BNB por User 1
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Ejecutando transacción: Venta 9 de BNB por User 1
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Intentando venta: 9 BNB de User 1 (disponible: 0)
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Estatus establecido: Invalida para transacción de usuario User 1
+2025-08-13 18:26:24 [main] ERROR parciales.services.TransactionProcessorService - Venta fallida por cantidad insuficiente: Usuario User 1 tiene 0 BNB, quiere vender 9
+2025-08-13 18:26:24 [main] ERROR parciales.services.TransactionProcessorService - Error inesperado en ejecutarVenta: No se pudo completar la venta.
+2025-08-13 18:26:24 [main] ERROR parciales.services.TransactionProcessorService - Error al ejecutar transacción: No se pudo completar la venta.
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Compra 6 de TAO por User 2
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Ejecutando transacción: Compra 6 de TAO por User 2
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Intentando compra: 6 TAO de User 2 por $1.000428E7 COP
+2025-08-13 18:26:24 [main] INFO  parciales.model.Usuario - Saldo disminuido en $1.000428E7 COP para usuario User 2. Nuevo saldo: $7.999572E7 COP
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Estatus establecido: Valida para transacción de usuario User 2
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Compra exitosa: 6 TAO de User 2 por 1.000428E7
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Venta 5 de VET por User 3
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Ejecutando transacción: Venta 5 de VET por User 3
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Intentando venta: 5 VET de User 3 (disponible: 0)
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Estatus establecido: Invalida para transacción de usuario User 3
+2025-08-13 18:26:24 [main] ERROR parciales.services.TransactionProcessorService - Venta fallida por cantidad insuficiente: Usuario User 3 tiene 0 VET, quiere vender 5
+2025-08-13 18:26:24 [main] ERROR parciales.services.TransactionProcessorService - Error inesperado en ejecutarVenta: No se pudo completar la venta.
+2025-08-13 18:26:24 [main] ERROR parciales.services.TransactionProcessorService - Error al ejecutar transacción: No se pudo completar la venta.
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Venta 7 de CMETH por User 4
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Ejecutando transacción: Venta 7 de CMETH por User 4
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Intentando venta: 7 CMETH de User 4 (disponible: 0)
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Estatus establecido: Invalida para transacción de usuario User 4
+2025-08-13 18:26:24 [main] ERROR parciales.services.TransactionProcessorService - Venta fallida por cantidad insuficiente: Usuario User 4 tiene 0 CMETH, quiere vender 7
+2025-08-13 18:26:24 [main] ERROR parciales.services.TransactionProcessorService - Error inesperado en ejecutarVenta: No se pudo completar la venta.
+2025-08-13 18:26:24 [main] ERROR parciales.services.TransactionProcessorService - Error al ejecutar transacción: No se pudo completar la venta.
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Compra 10 de DAI por User 5
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Ejecutando transacción: Compra 10 de DAI por User 5
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Intentando compra: 10 DAI de User 5 por $41194.8912 COP
+2025-08-13 18:26:24 [main] INFO  parciales.model.Usuario - Saldo disminuido en $41194.8912 COP para usuario User 5. Nuevo saldo: $8.99588051088E7 COP
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Estatus establecido: Valida para transacción de usuario User 5
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Compra exitosa: 10 DAI de User 5 por 41194.8912
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Compra 10 de CRV por User 1
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Ejecutando transacción: Compra 10 de CRV por User 1
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Intentando compra: 10 CRV de User 1 por $42000.0 COP
+2025-08-13 18:26:24 [main] INFO  parciales.model.Usuario - Saldo disminuido en $42000.0 COP para usuario User 1. Nuevo saldo: $8958000.0 COP
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Estatus establecido: Valida para transacción de usuario User 1
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Compra exitosa: 10 CRV de User 1 por 42000.0
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Compra 4 de KAIA por User 2
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Ejecutando transacción: Compra 4 de KAIA por User 2
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Intentando compra: 4 KAIA de User 2 por $2691.9929600000005 COP
+2025-08-13 18:26:24 [main] INFO  parciales.model.Usuario - Saldo disminuido en $2691.9929600000005 COP para usuario User 2. Nuevo saldo: $7.999302800704E7 COP
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Estatus establecido: Valida para transacción de usuario User 2
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Compra exitosa: 4 KAIA de User 2 por 2691.9929600000005
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Venta 8 de IMX por User 3
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Ejecutando transacción: Venta 8 de IMX por User 3
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Intentando venta: 8 IMX de User 3 (disponible: 0)
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Estatus establecido: Invalida para transacción de usuario User 3
+2025-08-13 18:26:24 [main] ERROR parciales.services.TransactionProcessorService - Venta fallida por cantidad insuficiente: Usuario User 3 tiene 0 IMX, quiere vender 8
+2025-08-13 18:26:24 [main] ERROR parciales.services.TransactionProcessorService - Error inesperado en ejecutarVenta: No se pudo completar la venta.
+2025-08-13 18:26:24 [main] ERROR parciales.services.TransactionProcessorService - Error al ejecutar transacción: No se pudo completar la venta.
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Compra 9 de SPX por User 4
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Ejecutando transacción: Compra 9 de SPX por User 4
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Intentando compra: 9 SPX de User 4 por $64872.0 COP
+2025-08-13 18:26:24 [main] INFO  parciales.model.Usuario - Saldo disminuido en $64872.0 COP para usuario User 4. Nuevo saldo: $8.9935128E7 COP
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Estatus establecido: Valida para transacción de usuario User 4
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Compra exitosa: 9 SPX de User 4 por 64872.0
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Compra 1 de APT por User 5
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Ejecutando transacción: Compra 1 de APT por User 5
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Intentando compra: 1 APT de User 5 por $21614.0 COP
+2025-08-13 18:26:24 [main] INFO  parciales.model.Usuario - Saldo disminuido en $21614.0 COP para usuario User 5. Nuevo saldo: $8.99371911088E7 COP
+2025-08-13 18:26:24 [main] INFO  parciales.model.Transaccion - Estatus establecido: Valida para transacción de usuario User 5
+2025-08-13 18:26:24 [main] INFO  parciales.services.TransactionProcessorService - Compra exitosa: 1 APT de User 5 por 21614.0
+2025-08-13 18:26:24 [main] INFO  parciales.services.ReporteService - Procesando 5 usuarios para el reporte...
+2025-08-13 18:26:24 [main] INFO  parciales.model.Usuario - Valor del portafolio calculado para usuario User 1: $105.0 USD
+2025-08-13 18:26:24 [main] INFO  parciales.model.Usuario - Generado reporte de portafolio para usuario User 1: 1 tipos de criptomonedas
+2025-08-13 18:26:24 [main] INFO  parciales.model.TransaccionReporte - Creando transacción para reporte
+2025-08-13 18:26:24 [main] INFO  parciales.model.TransaccionReporte - Creando transacción para reporte
+2025-08-13 18:26:24 [main] INFO  parciales.model.Usuario - Generado historial de reportes para usuario User 1: 2 transacciones
+2025-08-13 18:26:24 [main] INFO  parciales.model.UsuarioReporte - Reporte de usuario creado: User 1 - Saldo: $2239.5 USD - Portafolio: $105.0 USD - Transacciones: 2
+2025-08-13 18:26:24 [main] INFO  parciales.services.ReporteService - Usuario procesado para reporte: User 1 - Saldo: $2239.5 USD - Portafolio: $105.0 USD
+2025-08-13 18:26:24 [main] INFO  parciales.model.Usuario - Valor del portafolio calculado para usuario User 2: $14159.539616 USD
+2025-08-13 18:26:24 [main] INFO  parciales.model.Usuario - Generado reporte de portafolio para usuario User 2: 2 tipos de criptomonedas
+2025-08-13 18:26:24 [main] INFO  parciales.model.TransaccionReporte - Creando transacción para reporte
+2025-08-13 18:26:24 [main] INFO  parciales.model.TransaccionReporte - Creando transacción para reporte
+2025-08-13 18:26:24 [main] INFO  parciales.model.Usuario - Generado historial de reportes para usuario User 2: 2 transacciones
+2025-08-13 18:26:24 [main] INFO  parciales.model.UsuarioReporte - Reporte de usuario creado: User 2 - Saldo: $19998.257001759997 USD - Portafolio: $14159.539616 USD - Transacciones: 2
+2025-08-13 18:26:24 [main] INFO  parciales.services.ReporteService - Usuario procesado para reporte: User 2 - Saldo: $19998.257001759997 USD - Portafolio: $14159.539616 USD
+2025-08-13 18:26:24 [main] INFO  parciales.model.Usuario - Valor del portafolio calculado para usuario User 3: $0.0 USD
+2025-08-13 18:26:24 [main] INFO  parciales.model.Usuario - Generado reporte de portafolio para usuario User 3: 0 tipos de criptomonedas
+2025-08-13 18:26:24 [main] INFO  parciales.model.TransaccionReporte - Creando transacción para reporte
+2025-08-13 18:26:24 [main] INFO  parciales.model.TransaccionReporte - Creando transacción para reporte
+2025-08-13 18:26:24 [main] INFO  parciales.model.Usuario - Generado historial de reportes para usuario User 3: 2 transacciones
+2025-08-13 18:26:24 [main] INFO  parciales.model.UsuarioReporte - Reporte de usuario creado: User 3 - Saldo: $22500.0 USD - Portafolio: $0.0 USD - Transacciones: 2
+2025-08-13 18:26:24 [main] INFO  parciales.services.ReporteService - Usuario procesado para reporte: User 3 - Saldo: $22500.0 USD - Portafolio: $0.0 USD
+2025-08-13 18:26:24 [main] INFO  parciales.model.Usuario - Valor del portafolio calculado para usuario User 4: $137.7 USD
+2025-08-13 18:26:24 [main] INFO  parciales.model.Usuario - Generado reporte de portafolio para usuario User 4: 1 tipos de criptomonedas
+2025-08-13 18:26:24 [main] INFO  parciales.model.TransaccionReporte - Creando transacción para reporte
+2025-08-13 18:26:24 [main] INFO  parciales.model.TransaccionReporte - Creando transacción para reporte
+2025-08-13 18:26:24 [main] INFO  parciales.model.Usuario - Generado historial de reportes para usuario User 4: 2 transacciones
+2025-08-13 18:26:24 [main] INFO  parciales.model.UsuarioReporte - Reporte de usuario creado: User 4 - Saldo: $22483.782 USD - Portafolio: $137.7 USD - Transacciones: 2
+2025-08-13 18:26:24 [main] INFO  parciales.services.ReporteService - Usuario procesado para reporte: User 4 - Saldo: $22483.782 USD - Portafolio: $137.7 USD
+2025-08-13 18:26:24 [main] INFO  parciales.model.Usuario - Valor del portafolio calculado para usuario User 5: $105.03760000000003 USD
+2025-08-13 18:26:24 [main] INFO  parciales.model.Usuario - Generado reporte de portafolio para usuario User 5: 2 tipos de criptomonedas
+2025-08-13 18:26:24 [main] INFO  parciales.model.TransaccionReporte - Creando transacción para reporte
+2025-08-13 18:26:24 [main] INFO  parciales.model.TransaccionReporte - Creando transacción para reporte
+2025-08-13 18:26:24 [main] INFO  parciales.model.Usuario - Generado historial de reportes para usuario User 5: 2 transacciones
+2025-08-13 18:26:24 [main] INFO  parciales.model.UsuarioReporte - Reporte de usuario creado: User 5 - Saldo: $22484.297777199998 USD - Portafolio: $105.03760000000003 USD - Transacciones: 2
+2025-08-13 18:26:24 [main] INFO  parciales.services.ReporteService - Usuario procesado para reporte: User 5 - Saldo: $22484.297777199998 USD - Portafolio: $105.03760000000003 USD
+2025-08-13 18:26:24 [main] INFO  parciales.services.ReporteService - Procesamiento de usuarios completado. 5 reportes generados
+2025-08-13 18:26:24 [main] INFO  parciales.services.ReporteService - Iniciando guardado de reportes...
+2025-08-13 18:26:24 [main] ERROR parciales.services.ReporteService - Error al guardar el archivo de reportes: app\src\main\resources\reportes.json (El sistema no puede encontrar la ruta especificada)
+2025-08-13 18:26:42 [main] INFO  parciales.App - Creando usuarios...
+2025-08-13 18:26:42 [main] INFO  parciales.model.Usuario - Usuario creado: User 1 con saldo inicial de $9000000.0 COP
+2025-08-13 18:26:42 [main] INFO  parciales.model.Usuario - Usuario creado: User 2 con saldo inicial de $9.0E7 COP
+2025-08-13 18:26:42 [main] INFO  parciales.model.Usuario - Usuario creado: User 3 con saldo inicial de $9.0E7 COP
+2025-08-13 18:26:42 [main] INFO  parciales.model.Usuario - Usuario creado: User 4 con saldo inicial de $9.0E7 COP
+2025-08-13 18:26:42 [main] INFO  parciales.model.Usuario - Usuario creado: User 5 con saldo inicial de $9.0E7 COP
+2025-08-13 18:26:42 [main] INFO  parciales.App - Añadiendo usuarios a la cola
+2025-08-13 18:26:42 [main] INFO  parciales.services.GetApi - Iniciando llamada a la API de criptomonedas...
+2025-08-13 18:26:42 [main] INFO  parciales.services.GetApi - Enviando solicitud HTTP a: https://api.coinlore.net/api/tickers/
+2025-08-13 18:26:44 [main] INFO  parciales.services.GetApi - API consultada exitosamente. Se obtuvieron 100 criptomonedas
+2025-08-13 18:26:44 [main] INFO  parciales.App - Simulando turnos...
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: User 1
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: TAO para transacción de usuario User 1
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 2 para transacción de usuario User 1
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Compra para usuario User 1
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Compra 2 de TAO por User 1
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: User 2
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: CFX para transacción de usuario User 2
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 6 para transacción de usuario User 2
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Compra para usuario User 2
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Compra 6 de CFX por User 2
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: User 3
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: UNI para transacción de usuario User 3
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 2 para transacción de usuario User 3
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Compra para usuario User 3
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Compra 2 de UNI por User 3
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: User 4
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: XDCE para transacción de usuario User 4
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 1 para transacción de usuario User 4
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Compra para usuario User 4
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Compra 1 de XDCE por User 4
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: User 5
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: BGB para transacción de usuario User 5
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 8 para transacción de usuario User 5
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Compra para usuario User 5
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Compra 8 de BGB por User 5
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: User 1
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: TAO para transacción de usuario User 1
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 4 para transacción de usuario User 1
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Venta para usuario User 1
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Venta 4 de TAO por User 1
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: User 2
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: CAKE para transacción de usuario User 2
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 3 para transacción de usuario User 2
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Venta para usuario User 2
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Venta 3 de CAKE por User 2
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: User 3
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: WBTC para transacción de usuario User 3
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 4 para transacción de usuario User 3
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Venta para usuario User 3
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Venta 4 de WBTC por User 3
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: User 4
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: FTN para transacción de usuario User 4
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 10 para transacción de usuario User 4
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Venta para usuario User 4
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Venta 10 de FTN por User 4
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: User 5
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: FTN para transacción de usuario User 5
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 5 para transacción de usuario User 5
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Venta para usuario User 5
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Venta 5 de FTN por User 5
+2025-08-13 18:26:44 [main] INFO  parciales.App - Desencolando transacciones...
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Compra 2 de TAO por User 1
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Ejecutando transacción: Compra 2 de TAO por User 1
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Intentando compra: 2 TAO de User 1 por $3083080.0 COP
+2025-08-13 18:26:44 [main] INFO  parciales.model.Usuario - Saldo disminuido en $3083080.0 COP para usuario User 1. Nuevo saldo: $5916920.0 COP
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Estatus establecido: Valida para transacción de usuario User 1
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Compra exitosa: 2 TAO de User 1 por 3083080.0
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Compra 6 de CFX por User 2
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Ejecutando transacción: Compra 6 de CFX por User 2
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Intentando compra: 6 CFX de User 2 por $4690.9699200000005 COP
+2025-08-13 18:26:44 [main] INFO  parciales.model.Usuario - Saldo disminuido en $4690.9699200000005 COP para usuario User 2. Nuevo saldo: $8.999530903008E7 COP
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Estatus establecido: Valida para transacción de usuario User 2
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Compra exitosa: 6 CFX de User 2 por 4690.9699200000005
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Compra 2 de UNI por User 3
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Ejecutando transacción: Compra 2 de UNI por User 3
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Intentando compra: 2 UNI de User 3 por $95020.79999999999 COP
+2025-08-13 18:26:44 [main] INFO  parciales.model.Usuario - Saldo disminuido en $95020.79999999999 COP para usuario User 3. Nuevo saldo: $8.99049792E7 COP
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Estatus establecido: Valida para transacción de usuario User 3
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Compra exitosa: 2 UNI de User 3 por 95020.79999999999
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Compra 1 de XDCE por User 4
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Ejecutando transacción: Compra 1 de XDCE por User 4
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Intentando compra: 1 XDCE de User 4 por $367.98603999999995 COP
+2025-08-13 18:26:44 [main] INFO  parciales.model.Usuario - Saldo disminuido en $367.98603999999995 COP para usuario User 4. Nuevo saldo: $8.999963201396E7 COP
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Estatus establecido: Valida para transacción de usuario User 4
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Compra exitosa: 1 XDCE de User 4 por 367.98603999999995
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Compra 8 de BGB por User 5
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Ejecutando transacción: Compra 8 de BGB por User 5
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Intentando compra: 8 BGB de User 5 por $169168.0 COP
+2025-08-13 18:26:44 [main] INFO  parciales.model.Usuario - Saldo disminuido en $169168.0 COP para usuario User 5. Nuevo saldo: $8.9830832E7 COP
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Estatus establecido: Valida para transacción de usuario User 5
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Compra exitosa: 8 BGB de User 5 por 169168.0
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Venta 4 de TAO por User 1
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Ejecutando transacción: Venta 4 de TAO por User 1
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Intentando venta: 4 TAO de User 1 (disponible: 2)
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Estatus establecido: Invalida para transacción de usuario User 1
+2025-08-13 18:26:44 [main] ERROR parciales.services.TransactionProcessorService - Venta fallida por cantidad insuficiente: Usuario User 1 tiene 2 TAO, quiere vender 4
+2025-08-13 18:26:44 [main] ERROR parciales.services.TransactionProcessorService - Error inesperado en ejecutarVenta: No se pudo completar la venta.
+2025-08-13 18:26:44 [main] ERROR parciales.services.TransactionProcessorService - Error al ejecutar transacción: No se pudo completar la venta.
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Venta 3 de CAKE por User 2
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Ejecutando transacción: Venta 3 de CAKE por User 2
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Intentando venta: 3 CAKE de User 2 (disponible: 0)
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Estatus establecido: Invalida para transacción de usuario User 2
+2025-08-13 18:26:44 [main] ERROR parciales.services.TransactionProcessorService - Venta fallida por cantidad insuficiente: Usuario User 2 tiene 0 CAKE, quiere vender 3
+2025-08-13 18:26:44 [main] ERROR parciales.services.TransactionProcessorService - Error inesperado en ejecutarVenta: No se pudo completar la venta.
+2025-08-13 18:26:44 [main] ERROR parciales.services.TransactionProcessorService - Error al ejecutar transacción: No se pudo completar la venta.
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Venta 4 de WBTC por User 3
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Ejecutando transacción: Venta 4 de WBTC por User 3
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Intentando venta: 4 WBTC de User 3 (disponible: 0)
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Estatus establecido: Invalida para transacción de usuario User 3
+2025-08-13 18:26:44 [main] ERROR parciales.services.TransactionProcessorService - Venta fallida por cantidad insuficiente: Usuario User 3 tiene 0 WBTC, quiere vender 4
+2025-08-13 18:26:44 [main] ERROR parciales.services.TransactionProcessorService - Error inesperado en ejecutarVenta: No se pudo completar la venta.
+2025-08-13 18:26:44 [main] ERROR parciales.services.TransactionProcessorService - Error al ejecutar transacción: No se pudo completar la venta.
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Venta 10 de FTN por User 4
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Ejecutando transacción: Venta 10 de FTN por User 4
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Intentando venta: 10 FTN de User 4 (disponible: 0)
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Estatus establecido: Invalida para transacción de usuario User 4
+2025-08-13 18:26:44 [main] ERROR parciales.services.TransactionProcessorService - Venta fallida por cantidad insuficiente: Usuario User 4 tiene 0 FTN, quiere vender 10
+2025-08-13 18:26:44 [main] ERROR parciales.services.TransactionProcessorService - Error inesperado en ejecutarVenta: No se pudo completar la venta.
+2025-08-13 18:26:44 [main] ERROR parciales.services.TransactionProcessorService - Error al ejecutar transacción: No se pudo completar la venta.
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Venta 5 de FTN por User 5
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Ejecutando transacción: Venta 5 de FTN por User 5
+2025-08-13 18:26:44 [main] INFO  parciales.services.TransactionProcessorService - Intentando venta: 5 FTN de User 5 (disponible: 0)
+2025-08-13 18:26:44 [main] INFO  parciales.model.Transaccion - Estatus establecido: Invalida para transacción de usuario User 5
+2025-08-13 18:26:44 [main] ERROR parciales.services.TransactionProcessorService - Venta fallida por cantidad insuficiente: Usuario User 5 tiene 0 FTN, quiere vender 5
+2025-08-13 18:26:44 [main] ERROR parciales.services.TransactionProcessorService - Error inesperado en ejecutarVenta: No se pudo completar la venta.
+2025-08-13 18:26:44 [main] ERROR parciales.services.TransactionProcessorService - Error al ejecutar transacción: No se pudo completar la venta.
+2025-08-13 18:26:44 [main] INFO  parciales.services.ReporteService - Procesando 5 usuarios para el reporte...
+2025-08-13 18:26:44 [main] INFO  parciales.model.Usuario - Valor del portafolio calculado para usuario User 1: $1573.0 USD
+2025-08-13 18:26:44 [main] INFO  parciales.model.Usuario - Generado reporte de portafolio para usuario User 1: 1 tipos de criptomonedas
+2025-08-13 18:26:44 [main] INFO  parciales.model.TransaccionReporte - Creando transacción para reporte
+2025-08-13 18:26:44 [main] INFO  parciales.model.TransaccionReporte - Creando transacción para reporte
+2025-08-13 18:26:44 [main] INFO  parciales.model.Usuario - Generado historial de reportes para usuario User 1: 2 transacciones
+2025-08-13 18:26:44 [main] INFO  parciales.model.UsuarioReporte - Reporte de usuario creado: User 1 - Saldo: $1479.23 USD - Portafolio: $1573.0 USD - Transacciones: 2
+2025-08-13 18:26:44 [main] INFO  parciales.services.ReporteService - Usuario procesado para reporte: User 1 - Saldo: $1479.23 USD - Portafolio: $1573.0 USD
+2025-08-13 18:26:44 [main] INFO  parciales.model.Usuario - Valor del portafolio calculado para usuario User 2: $7.180056 USD
+2025-08-13 18:26:44 [main] INFO  parciales.model.Usuario - Generado reporte de portafolio para usuario User 2: 1 tipos de criptomonedas
+2025-08-13 18:26:44 [main] INFO  parciales.model.TransaccionReporte - Creando transacción para reporte
+2025-08-13 18:26:44 [main] INFO  parciales.model.TransaccionReporte - Creando transacción para reporte
+2025-08-13 18:26:44 [main] INFO  parciales.model.Usuario - Generado historial de reportes para usuario User 2: 2 transacciones
+2025-08-13 18:26:44 [main] INFO  parciales.model.UsuarioReporte - Reporte de usuario creado: User 2 - Saldo: $22498.827257520003 USD - Portafolio: $7.180056 USD - Transacciones: 2
+2025-08-13 18:26:44 [main] INFO  parciales.services.ReporteService - Usuario procesado para reporte: User 2 - Saldo: $22498.827257520003 USD - Portafolio: $7.180056 USD
+2025-08-13 18:26:44 [main] INFO  parciales.model.Usuario - Valor del portafolio calculado para usuario User 3: $48.48 USD
+2025-08-13 18:26:44 [main] INFO  parciales.model.Usuario - Generado reporte de portafolio para usuario User 3: 1 tipos de criptomonedas
+2025-08-13 18:26:44 [main] INFO  parciales.model.TransaccionReporte - Creando transacción para reporte
+2025-08-13 18:26:44 [main] INFO  parciales.model.TransaccionReporte - Creando transacción para reporte
+2025-08-13 18:26:44 [main] INFO  parciales.model.Usuario - Generado historial de reportes para usuario User 3: 2 transacciones
+2025-08-13 18:26:44 [main] INFO  parciales.model.UsuarioReporte - Reporte de usuario creado: User 3 - Saldo: $22476.2448 USD - Portafolio: $48.48 USD - Transacciones: 2
+2025-08-13 18:26:44 [main] INFO  parciales.services.ReporteService - Usuario procesado para reporte: User 3 - Saldo: $22476.2448 USD - Portafolio: $48.48 USD
+2025-08-13 18:26:44 [main] INFO  parciales.model.Usuario - Valor del portafolio calculado para usuario User 4: $0.089317 USD
+2025-08-13 18:26:44 [main] INFO  parciales.model.Usuario - Generado reporte de portafolio para usuario User 4: 1 tipos de criptomonedas
+2025-08-13 18:26:44 [main] INFO  parciales.model.TransaccionReporte - Creando transacción para reporte
+2025-08-13 18:26:44 [main] INFO  parciales.model.TransaccionReporte - Creando transacción para reporte
+2025-08-13 18:26:44 [main] INFO  parciales.model.Usuario - Generado historial de reportes para usuario User 4: 2 transacciones
+2025-08-13 18:26:44 [main] INFO  parciales.model.UsuarioReporte - Reporte de usuario creado: User 4 - Saldo: $22499.90800349 USD - Portafolio: $0.089317 USD - Transacciones: 2
+2025-08-13 18:26:44 [main] INFO  parciales.services.ReporteService - Usuario procesado para reporte: User 4 - Saldo: $22499.90800349 USD - Portafolio: $0.089317 USD
+2025-08-13 18:26:44 [main] INFO  parciales.model.Usuario - Valor del portafolio calculado para usuario User 5: $310.40000000000003 USD
+2025-08-13 18:26:44 [main] INFO  parciales.model.Usuario - Generado reporte de portafolio para usuario User 5: 1 tipos de criptomonedas
+2025-08-13 18:26:44 [main] INFO  parciales.model.TransaccionReporte - Creando transacción para reporte
+2025-08-13 18:26:44 [main] INFO  parciales.model.TransaccionReporte - Creando transacción para reporte
+2025-08-13 18:26:44 [main] INFO  parciales.model.Usuario - Generado historial de reportes para usuario User 5: 2 transacciones
+2025-08-13 18:26:44 [main] INFO  parciales.model.UsuarioReporte - Reporte de usuario creado: User 5 - Saldo: $22457.708 USD - Portafolio: $310.40000000000003 USD - Transacciones: 2
+2025-08-13 18:26:44 [main] INFO  parciales.services.ReporteService - Usuario procesado para reporte: User 5 - Saldo: $22457.708 USD - Portafolio: $310.40000000000003 USD
+2025-08-13 18:26:44 [main] INFO  parciales.services.ReporteService - Procesamiento de usuarios completado. 5 reportes generados
+2025-08-13 18:26:44 [main] INFO  parciales.services.ReporteService - Iniciando guardado de reportes...
+2025-08-13 18:26:44 [main] ERROR parciales.services.ReporteService - Error al guardar el archivo de reportes: app\src\main\resources\reportes.json (El sistema no puede encontrar la ruta especificada)
+2025-08-13 18:28:18 [main] INFO  parciales.App - Creando usuarios...
+2025-08-13 18:28:18 [main] INFO  parciales.model.Usuario - Usuario creado: User 1 con saldo inicial de $9000000.0 COP
+2025-08-13 18:28:18 [main] INFO  parciales.model.Usuario - Usuario creado: User 2 con saldo inicial de $9.0E7 COP
+2025-08-13 18:28:18 [main] INFO  parciales.model.Usuario - Usuario creado: User 3 con saldo inicial de $9.0E7 COP
+2025-08-13 18:28:18 [main] INFO  parciales.model.Usuario - Usuario creado: User 4 con saldo inicial de $9.0E7 COP
+2025-08-13 18:28:18 [main] INFO  parciales.model.Usuario - Usuario creado: User 5 con saldo inicial de $9.0E7 COP
+2025-08-13 18:28:18 [main] INFO  parciales.App - Añadiendo usuarios a la cola
+2025-08-13 18:28:18 [main] INFO  parciales.services.GetApi - Iniciando llamada a la API de criptomonedas...
+2025-08-13 18:28:18 [main] INFO  parciales.services.GetApi - Enviando solicitud HTTP a: https://api.coinlore.net/api/tickers/
+2025-08-13 18:28:22 [main] INFO  parciales.services.GetApi - API consultada exitosamente. Se obtuvieron 100 criptomonedas
+2025-08-13 18:28:22 [main] INFO  parciales.App - Simulando turnos...
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: User 1
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: VIRTUAL para transacción de usuario User 1
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 1 para transacción de usuario User 1
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Compra para usuario User 1
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Compra 1 de VIRTUAL por User 1
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: User 2
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: HYPE para transacción de usuario User 2
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 8 para transacción de usuario User 2
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Venta para usuario User 2
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Venta 8 de HYPE por User 2
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: User 3
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: ETH para transacción de usuario User 3
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 6 para transacción de usuario User 3
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Venta para usuario User 3
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Venta 6 de ETH por User 3
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: User 4
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: FIL para transacción de usuario User 4
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 1 para transacción de usuario User 4
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Venta para usuario User 4
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Venta 1 de FIL por User 4
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: User 5
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: CAKE para transacción de usuario User 5
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 9 para transacción de usuario User 5
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Compra para usuario User 5
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Compra 9 de CAKE por User 5
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: User 1
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: LEO para transacción de usuario User 1
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 2 para transacción de usuario User 1
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Venta para usuario User 1
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Venta 2 de LEO por User 1
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: User 2
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: CFX para transacción de usuario User 2
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 2 para transacción de usuario User 2
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Compra para usuario User 2
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Compra 2 de CFX por User 2
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: User 3
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: BNSOL para transacción de usuario User 3
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 10 para transacción de usuario User 3
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Compra para usuario User 3
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Compra 10 de BNSOL por User 3
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: User 4
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: XDCE para transacción de usuario User 4
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 3 para transacción de usuario User 4
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Venta para usuario User 4
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Venta 3 de XDCE por User 4
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: User 5
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: LEO para transacción de usuario User 5
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 6 para transacción de usuario User 5
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Venta para usuario User 5
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Venta 6 de LEO por User 5
+2025-08-13 18:28:22 [main] INFO  parciales.App - Desencolando transacciones...
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Compra 1 de VIRTUAL por User 1
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Ejecutando transacción: Compra 1 de VIRTUAL por User 1
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Intentando compra: 1 VIRTUAL de User 1 por $5795.999999999999 COP
+2025-08-13 18:28:22 [main] INFO  parciales.model.Usuario - Saldo disminuido en $5795.999999999999 COP para usuario User 1. Nuevo saldo: $8994204.0 COP
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Estatus establecido: Valida para transacción de usuario User 1
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Compra exitosa: 1 VIRTUAL de User 1 por 5795.999999999999
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Venta 8 de HYPE por User 2
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Ejecutando transacción: Venta 8 de HYPE por User 2
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Intentando venta: 8 HYPE de User 2 (disponible: 0)
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Estatus establecido: Invalida para transacción de usuario User 2
+2025-08-13 18:28:22 [main] ERROR parciales.services.TransactionProcessorService - Venta fallida por cantidad insuficiente: Usuario User 2 tiene 0 HYPE, quiere vender 8
+2025-08-13 18:28:22 [main] ERROR parciales.services.TransactionProcessorService - Error inesperado en ejecutarVenta: No se pudo completar la venta.
+2025-08-13 18:28:22 [main] ERROR parciales.services.TransactionProcessorService - Error al ejecutar transacción: No se pudo completar la venta.
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Venta 6 de ETH por User 3
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Ejecutando transacción: Venta 6 de ETH por User 3
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Intentando venta: 6 ETH de User 3 (disponible: 0)
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Estatus establecido: Invalida para transacción de usuario User 3
+2025-08-13 18:28:22 [main] ERROR parciales.services.TransactionProcessorService - Venta fallida por cantidad insuficiente: Usuario User 3 tiene 0 ETH, quiere vender 6
+2025-08-13 18:28:22 [main] ERROR parciales.services.TransactionProcessorService - Error inesperado en ejecutarVenta: No se pudo completar la venta.
+2025-08-13 18:28:22 [main] ERROR parciales.services.TransactionProcessorService - Error al ejecutar transacción: No se pudo completar la venta.
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Venta 1 de FIL por User 4
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Ejecutando transacción: Venta 1 de FIL por User 4
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Intentando venta: 1 FIL de User 4 (disponible: 0)
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Estatus establecido: Invalida para transacción de usuario User 4
+2025-08-13 18:28:22 [main] ERROR parciales.services.TransactionProcessorService - Venta fallida por cantidad insuficiente: Usuario User 4 tiene 0 FIL, quiere vender 1
+2025-08-13 18:28:22 [main] ERROR parciales.services.TransactionProcessorService - Error inesperado en ejecutarVenta: No se pudo completar la venta.
+2025-08-13 18:28:22 [main] ERROR parciales.services.TransactionProcessorService - Error al ejecutar transacción: No se pudo completar la venta.
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Compra 9 de CAKE por User 5
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Ejecutando transacción: Compra 9 de CAKE por User 5
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Intentando compra: 9 CAKE de User 5 por $114188.40000000001 COP
+2025-08-13 18:28:22 [main] INFO  parciales.model.Usuario - Saldo disminuido en $114188.40000000001 COP para usuario User 5. Nuevo saldo: $8.98858116E7 COP
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Estatus establecido: Valida para transacción de usuario User 5
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Compra exitosa: 9 CAKE de User 5 por 114188.40000000001
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Venta 2 de LEO por User 1
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Ejecutando transacción: Venta 2 de LEO por User 1
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Intentando venta: 2 LEO de User 1 (disponible: 0)
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Estatus establecido: Invalida para transacción de usuario User 1
+2025-08-13 18:28:22 [main] ERROR parciales.services.TransactionProcessorService - Venta fallida por cantidad insuficiente: Usuario User 1 tiene 0 LEO, quiere vender 2
+2025-08-13 18:28:22 [main] ERROR parciales.services.TransactionProcessorService - Error inesperado en ejecutarVenta: No se pudo completar la venta.
+2025-08-13 18:28:22 [main] ERROR parciales.services.TransactionProcessorService - Error al ejecutar transacción: No se pudo completar la venta.
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Compra 2 de CFX por User 2
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Ejecutando transacción: Compra 2 de CFX por User 2
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Intentando compra: 2 CFX de User 2 por $1451.9668800000002 COP
+2025-08-13 18:28:22 [main] INFO  parciales.model.Usuario - Saldo disminuido en $1451.9668800000002 COP para usuario User 2. Nuevo saldo: $8.999854803312E7 COP
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Estatus establecido: Valida para transacción de usuario User 2
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Compra exitosa: 2 CFX de User 2 por 1451.9668800000002
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Compra 10 de BNSOL por User 3
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Ejecutando transacción: Compra 10 de BNSOL por User 3
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Intentando compra: 10 BNSOL de User 3 por $8608000.0 COP
+2025-08-13 18:28:22 [main] INFO  parciales.model.Usuario - Saldo disminuido en $8608000.0 COP para usuario User 3. Nuevo saldo: $8.1392E7 COP
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Estatus establecido: Valida para transacción de usuario User 3
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Compra exitosa: 10 BNSOL de User 3 por 8608000.0
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Venta 3 de XDCE por User 4
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Ejecutando transacción: Venta 3 de XDCE por User 4
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Intentando venta: 3 XDCE de User 4 (disponible: 0)
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Estatus establecido: Invalida para transacción de usuario User 4
+2025-08-13 18:28:22 [main] ERROR parciales.services.TransactionProcessorService - Venta fallida por cantidad insuficiente: Usuario User 4 tiene 0 XDCE, quiere vender 3
+2025-08-13 18:28:22 [main] ERROR parciales.services.TransactionProcessorService - Error inesperado en ejecutarVenta: No se pudo completar la venta.
+2025-08-13 18:28:22 [main] ERROR parciales.services.TransactionProcessorService - Error al ejecutar transacción: No se pudo completar la venta.
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Venta 6 de LEO por User 5
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Ejecutando transacción: Venta 6 de LEO por User 5
+2025-08-13 18:28:22 [main] INFO  parciales.services.TransactionProcessorService - Intentando venta: 6 LEO de User 5 (disponible: 0)
+2025-08-13 18:28:22 [main] INFO  parciales.model.Transaccion - Estatus establecido: Invalida para transacción de usuario User 5
+2025-08-13 18:28:22 [main] ERROR parciales.services.TransactionProcessorService - Venta fallida por cantidad insuficiente: Usuario User 5 tiene 0 LEO, quiere vender 6
+2025-08-13 18:28:22 [main] ERROR parciales.services.TransactionProcessorService - Error inesperado en ejecutarVenta: No se pudo completar la venta.
+2025-08-13 18:28:22 [main] ERROR parciales.services.TransactionProcessorService - Error al ejecutar transacción: No se pudo completar la venta.
+2025-08-13 18:28:22 [main] INFO  parciales.services.ReporteService - Procesando 5 usuarios para el reporte...
+2025-08-13 18:28:22 [main] INFO  parciales.model.Usuario - Valor del portafolio calculado para usuario User 1: $1.38 USD
+2025-08-13 18:28:22 [main] INFO  parciales.model.Usuario - Generado reporte de portafolio para usuario User 1: 1 tipos de criptomonedas
+2025-08-13 18:28:22 [main] INFO  parciales.model.TransaccionReporte - Creando transacción para reporte
+2025-08-13 18:28:22 [main] INFO  parciales.model.TransaccionReporte - Creando transacción para reporte
+2025-08-13 18:28:22 [main] INFO  parciales.model.Usuario - Generado historial de reportes para usuario User 1: 2 transacciones
+2025-08-13 18:28:22 [main] INFO  parciales.model.UsuarioReporte - Reporte de usuario creado: User 1 - Saldo: $2248.551 USD - Portafolio: $1.38 USD - Transacciones: 2
+2025-08-13 18:28:22 [main] INFO  parciales.services.ReporteService - Usuario procesado para reporte: User 1 - Saldo: $2248.551 USD - Portafolio: $1.38 USD
+2025-08-13 18:28:22 [main] INFO  parciales.model.Usuario - Valor del portafolio calculado para usuario User 2: $0.797784 USD
+2025-08-13 18:28:22 [main] INFO  parciales.model.Usuario - Generado reporte de portafolio para usuario User 2: 1 tipos de criptomonedas
+2025-08-13 18:28:22 [main] INFO  parciales.model.TransaccionReporte - Creando transacción para reporte
+2025-08-13 18:28:22 [main] INFO  parciales.model.TransaccionReporte - Creando transacción para reporte
+2025-08-13 18:28:22 [main] INFO  parciales.model.Usuario - Generado historial de reportes para usuario User 2: 2 transacciones
+2025-08-13 18:28:22 [main] INFO  parciales.model.UsuarioReporte - Reporte de usuario creado: User 2 - Saldo: $22499.637008280002 USD - Portafolio: $0.797784 USD - Transacciones: 2
+2025-08-13 18:28:22 [main] INFO  parciales.services.ReporteService - Usuario procesado para reporte: User 2 - Saldo: $22499.637008280002 USD - Portafolio: $0.797784 USD
+2025-08-13 18:28:22 [main] INFO  parciales.model.Usuario - Valor del portafolio calculado para usuario User 3: $21520.0 USD
+2025-08-13 18:28:22 [main] INFO  parciales.model.Usuario - Generado reporte de portafolio para usuario User 3: 1 tipos de criptomonedas
+2025-08-13 18:28:22 [main] INFO  parciales.model.TransaccionReporte - Creando transacción para reporte
+2025-08-13 18:28:22 [main] INFO  parciales.model.TransaccionReporte - Creando transacción para reporte
+2025-08-13 18:28:22 [main] INFO  parciales.model.Usuario - Generado historial de reportes para usuario User 3: 2 transacciones
+2025-08-13 18:28:22 [main] INFO  parciales.model.UsuarioReporte - Reporte de usuario creado: User 3 - Saldo: $20348.0 USD - Portafolio: $21520.0 USD - Transacciones: 2
+2025-08-13 18:28:22 [main] INFO  parciales.services.ReporteService - Usuario procesado para reporte: User 3 - Saldo: $20348.0 USD - Portafolio: $21520.0 USD
+2025-08-13 18:28:22 [main] INFO  parciales.model.Usuario - Valor del portafolio calculado para usuario User 4: $0.0 USD
+2025-08-13 18:28:22 [main] INFO  parciales.model.Usuario - Generado reporte de portafolio para usuario User 4: 0 tipos de criptomonedas
+2025-08-13 18:28:22 [main] INFO  parciales.model.TransaccionReporte - Creando transacción para reporte
+2025-08-13 18:28:22 [main] INFO  parciales.model.TransaccionReporte - Creando transacción para reporte
+2025-08-13 18:28:22 [main] INFO  parciales.model.Usuario - Generado historial de reportes para usuario User 4: 2 transacciones
+2025-08-13 18:28:22 [main] INFO  parciales.model.UsuarioReporte - Reporte de usuario creado: User 4 - Saldo: $22500.0 USD - Portafolio: $0.0 USD - Transacciones: 2
+2025-08-13 18:28:22 [main] INFO  parciales.services.ReporteService - Usuario procesado para reporte: User 4 - Saldo: $22500.0 USD - Portafolio: $0.0 USD
+2025-08-13 18:28:22 [main] INFO  parciales.model.Usuario - Valor del portafolio calculado para usuario User 5: $235.71 USD
+2025-08-13 18:28:22 [main] INFO  parciales.model.Usuario - Generado reporte de portafolio para usuario User 5: 1 tipos de criptomonedas
+2025-08-13 18:28:22 [main] INFO  parciales.model.TransaccionReporte - Creando transacción para reporte
+2025-08-13 18:28:22 [main] INFO  parciales.model.TransaccionReporte - Creando transacción para reporte
+2025-08-13 18:28:22 [main] INFO  parciales.model.Usuario - Generado historial de reportes para usuario User 5: 2 transacciones
+2025-08-13 18:28:22 [main] INFO  parciales.model.UsuarioReporte - Reporte de usuario creado: User 5 - Saldo: $22471.4529 USD - Portafolio: $235.71 USD - Transacciones: 2
+2025-08-13 18:28:22 [main] INFO  parciales.services.ReporteService - Usuario procesado para reporte: User 5 - Saldo: $22471.4529 USD - Portafolio: $235.71 USD
+2025-08-13 18:28:22 [main] INFO  parciales.services.ReporteService - Procesamiento de usuarios completado. 5 reportes generados
+2025-08-13 18:28:22 [main] INFO  parciales.services.ReporteService - Iniciando guardado de reportes...
+2025-08-13 18:28:22 [main] ERROR parciales.services.ReporteService - Error al guardar el archivo de reportes: app\src\main\resources\reportes.json (El sistema no puede encontrar la ruta especificada)
