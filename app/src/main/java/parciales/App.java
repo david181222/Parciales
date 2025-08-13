@@ -3,9 +3,103 @@
  */
 package parciales;
 
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+
+import parciales.model.Criptomoneda;
+import parciales.model.Usuario;
+import parciales.services.GetApi;
+import parciales.services.Transaccion;
+import parciales.services.TransactionProcessorService;
+
 public class App {
 
-//main
+    // main
     public static void main(String[] args) {
+
+        Usuario usuario1 = new Usuario("User 1", 9000000);
+        Usuario usuario2 = new Usuario("User 2", 90000000);
+        Usuario usuario3 = new Usuario("User 3", 90000000);
+        Usuario usuario4 = new Usuario("User 4", 90000000);
+        Usuario usuario5 = new Usuario("User 5", 90000000);
+
+        Queue<Usuario> users = new LinkedList<>(); // Se elige una cola para desencolar los usuario por turnos en orden
+                                                   // de llegada
+        users.add(usuario1);
+        users.add(usuario2);
+        users.add(usuario3);
+        users.add(usuario4);
+        users.add(usuario5);
+
+        Usuario usuarioAuxiliar;
+        Criptomoneda criptomonedaAuxiliar;
+        GetApi api = new GetApi();
+        List<Criptomoneda> listaAuxiliar = api.getApi(); // Esta lista guarda la lista que devuelve la API
+        int accionRandom;
+        int cantidadCripto;
+
+        Transaccion transaccionAuxiliar;
+
+        for (int i = 0; i < 10; i++) {
+            accionRandom = (int) (Math.random() * 2); // Numero entre 0 y 1
+
+            usuarioAuxiliar = users.poll();
+
+            if (accionRandom == 1) {
+                // Generar transacción para compra (1)
+                criptomonedaAuxiliar = listaAuxiliar.get((int) (Math.random() * listaAuxiliar.size()));
+                cantidadCripto = (int) (Math.random() * 10) + 1; // Entre 1 y 10
+
+                transaccionAuxiliar = new Transaccion(usuarioAuxiliar);
+                transaccionAuxiliar.setCriptomoneda(criptomonedaAuxiliar);
+                transaccionAuxiliar.setCantidadCripto(cantidadCripto);
+                transaccionAuxiliar.setTipoTransaccion("Compra");
+
+                TransactionProcessorService.meterTransaccion(transaccionAuxiliar);
+                System.out.println(usuarioAuxiliar.getName() + " compra " + cantidadCripto + " "
+                        + criptomonedaAuxiliar.getSymbol());
+
+            } else if (accionRandom == 0) {
+                // Generar transacción para venta (0)
+                criptomonedaAuxiliar = listaAuxiliar.get((int) (Math.random() * listaAuxiliar.size()));
+                cantidadCripto = (int) (Math.random() * 10) + 1; // Entre 1 y 10
+
+                transaccionAuxiliar = new Transaccion(usuarioAuxiliar);
+                transaccionAuxiliar.setCriptomoneda(criptomonedaAuxiliar);
+                transaccionAuxiliar.setCantidadCripto(cantidadCripto);
+                transaccionAuxiliar.setTipoTransaccion("Venta");
+
+                TransactionProcessorService.meterTransaccion(transaccionAuxiliar);
+                System.out.println(usuarioAuxiliar.getName() + " vende " + cantidadCripto + " "
+                        + criptomonedaAuxiliar.getSymbol());
+            }
+
+            users.add(usuarioAuxiliar); // Se reenvia el usuario al final de la cola para simular dos turnos
+        }
+
+        // Simulación
+        System.out.println("Desencolando turnos");
+        Transaccion transaccionProcesada;
+        while (TransactionProcessorService.transaccionesEnCola()) {
+            transaccionProcesada = TransactionProcessorService.procesarSiguienteTransaccion();
+            TransactionProcessorService.ejecutarTransaccion(transaccionProcesada);
+        }
+
+        System.out.println("Fin de las transacciones");
+        System.out.println();
+        System.out.println("Resultados:");
+        String mensaje;
+        mensaje = users.stream()
+                .map(r -> "Nombre: " + r.getName() + ", Saldo: " + r.getSaldoUSD() + ", Portafolio: "
+                        + r.getPortafolio().size() + " criptomonedas" + ", Historial: " + r.getHistorial().size()
+                        + " transacciones")
+                .reduce("", (a, b) -> a
+                        + "\n______________________________________________________________________________________________\n"
+                        + b);
+
+        System.out.println(mensaje);
+
     }
+
 }
