@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run App.java",
+			"type": "shell",
+			"command": "java",
+			"args": [
+				"-cp",
+				"../../../../app/build/classes/java/main:../../../../app/build/resources/main:../../../../app/build/libs/*",
+				"parciales.App"
+			],
+			"isBackground": false,
+			"group": "build"
+		}
+	]
+}
