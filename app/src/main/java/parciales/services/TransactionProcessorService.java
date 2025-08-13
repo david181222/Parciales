@@ -43,8 +43,8 @@ public class TransactionProcessorService {
             }
             return false;
         } catch (Exception e) {
-            throw new IllegalArgumentException("Error al ejecutar la transacción: " + e.getMessage());
-
+            
+            return false;
         }
     }
 
