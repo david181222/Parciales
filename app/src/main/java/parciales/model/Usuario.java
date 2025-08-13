@@ -13,8 +13,8 @@ public class Usuario {
     private UUID id;
     private String nombre;
     private double saldoCop;
-    private Bag<Criptomoneda> portafolio;
-    private Stack<Transaccion> historial;
+    private Bag<Criptomoneda> portafolio; //Se elige una bolsa porque simplemente interesa guardar las criptomonedas sabiendo su cantidad
+    private Stack<Transaccion> historial; //Se elige un stack porque cuando le metemos una transacción nos la guarda en forma historial (LIFO)
 
     public Usuario(String nombre, double saldoCop) {
         this.id = UUID.randomUUID();
@@ -29,8 +29,11 @@ public class Usuario {
         return this.nombre;
     }
 
-    public double getSaldo() {
+    public double getSaldoCOP() {
         return this.saldoCop;
+    }
+    public double getSaldoUSD() {
+        return this.saldoCop / 4000;
     }
 
     public void disminuirSaldo(double n) {

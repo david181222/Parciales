@@ -1,5 +1,7 @@
 package parciales.model;
 
+import java.util.Objects;
+
 public class Criptomoneda {
     private String id;
     private String symbol;
@@ -45,5 +47,26 @@ public class Criptomoneda {
                 ", name='" + name + '\'' +
                 ", price_usd='" + price_usd + '\'' +
                 '}';
+    }
+
+     @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (!(obj instanceof Criptomoneda))
+            return false;
+        Criptomoneda criptomoneda = (Criptomoneda) obj;
+        if (!id.equals(criptomoneda.id))
+            return false;
+        if (!symbol.equals(criptomoneda.symbol))
+            return false;
+        if (!name.equals(criptomoneda.name))
+            return false;
+        return price_usd.equals(criptomoneda.price_usd);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, symbol, name, price_usd);
     }
 }
