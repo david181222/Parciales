@@ -1,98 +1,125 @@
 [
   {
     "nombreReporte": "User 1",
-    "saldoUSDReporte": 2243.054,
-    "valorPortafolioReporte": 37.75,
-    "portafolioReporte": [
-      {
-        "nombreCriptomoneda": "Lido DAO",
-        "cantidadCriptomoneda": 5
-      }
-    ],
+    "saldoUSDReporte": 2250.0,
+    "valorPortafolioReporte": 0.0,
+    "portafolioReporte": [],
     "historialReporte": [
       {
         "estatus": "Invalida",
         "tipoTransaccion": "Venta",
-        "nombreCriptomoneda": "XRP",
-        "simboloCriptomoneda": "XRP",
+        "nombreCriptomoneda": "Bonk",
+        "simboloCriptomoneda": "BONK",
         "cantidad": 4,
-        "precioUSD": 3.28,
-        "valorTransaccionCOP": 52480.0
+        "precioUSD": 2.7E-5,
+        "valorTransaccionCOP": 0.432
       },
       {
-        "estatus": "Valida",
-        "tipoTransaccion": "Compra",
-        "nombreCriptomoneda": "Lido DAO",
-        "simboloCriptomoneda": "LDO",
-        "cantidad": 5,
-        "precioUSD": 1.51,
-        "valorTransaccionCOP": 30200.0
+        "estatus": "Invalida",
+        "tipoTransaccion": "Venta",
+        "nombreCriptomoneda": "The Graph",
+        "simboloCriptomoneda": "GRT",
+        "cantidad": 7,
+        "precioUSD": 0.101898,
+        "valorTransaccionCOP": 2853.144
       }
     ]
   },
   {
     "nombreReporte": "User 2",
-    "saldoUSDReporte": 22500.0,
-    "valorPortafolioReporte": 0.0,
-    "portafolioReporte": [],
+    "saldoUSDReporte": 22499.99992104,
+    "valorPortafolioReporte": 5.04E-4,
+    "portafolioReporte": [
+      {
+        "nombreCriptomoneda": "Shiba Inu",
+        "cantidadCriptomoneda": 6
+      }
+    ],
     "historialReporte": [
       {
         "estatus": "Invalida",
         "tipoTransaccion": "Venta",
-        "nombreCriptomoneda": "Fasttoken",
-        "simboloCriptomoneda": "FTN",
-        "cantidad": 5,
-        "precioUSD": 4.57,
-        "valorTransaccionCOP": 91400.0
+        "nombreCriptomoneda": "PAX Gold",
+        "simboloCriptomoneda": "PAXG",
+        "cantidad": 2,
+        "precioUSD": 3358.04,
+        "valorTransaccionCOP": 2.686432E7
       },
       {
-        "estatus": "Invalida",
-        "tipoTransaccion": "Venta",
-        "nombreCriptomoneda": "Vaulta",
-        "simboloCriptomoneda": "A",
-        "cantidad": 4,
-        "precioUSD": 0.57149,
-        "valorTransaccionCOP": 9143.84
+        "estatus": "Valida",
+        "tipoTransaccion": "Compra",
+        "nombreCriptomoneda": "Shiba Inu",
+        "simboloCriptomoneda": "SHIB",
+        "cantidad": 6,
+        "precioUSD": 1.4E-5,
+        "valorTransaccionCOP": 0.33599999999999997
       }
     ]
   },
   {
     "nombreReporte": "User 3",
-    "saldoUSDReporte": 22469.5828,
-    "valorPortafolioReporte": 249.93999999999997,
+    "saldoUSDReporte": 22496.28911784,
+    "valorPortafolioReporte": 20.616012000000005,
     "portafolioReporte": [
       {
-        "nombreCriptomoneda": "Fartcoin",
-        "cantidadCriptomoneda": 5
-      },
-      {
-        "nombreCriptomoneda": "Filecoin",
-        "cantidadCriptomoneda": 9
+        "nombreCriptomoneda": "EOS",
+        "cantidadCriptomoneda": 6
       }
     ],
     "historialReporte": [
       {
         "estatus": "Valida",
         "tipoTransaccion": "Compra",
-        "nombreCriptomoneda": "Filecoin",
-        "simboloCriptomoneda": "FIL",
-        "cantidad": 9,
-        "precioUSD": 2.74,
-        "valorTransaccionCOP": 98640.00000000001
+        "nombreCriptomoneda": "EOS",
+        "simboloCriptomoneda": "EOS",
+        "cantidad": 6,
+        "precioUSD": 0.572667,
+        "valorTransaccionCOP": 13744.008000000002
       },
       {
-        "estatus": "Valida",
-        "tipoTransaccion": "Compra",
-        "nombreCriptomoneda": "Fartcoin",
-        "simboloCriptomoneda": "FARTCOIN",
-        "cantidad": 5,
-        "precioUSD": 1.12,
-        "valorTransaccionCOP": 22400.000000000004
+        "estatus": "Invalida",
+        "tipoTransaccion": "Venta",
+        "nombreCriptomoneda": "Algorand",
+        "simboloCriptomoneda": "ALGO",
+        "cantidad": 4,
+        "precioUSD": 0.281773,
+        "valorTransaccionCOP": 4508.3679999999995
       }
     ]
   },
   {
     "nombreReporte": "User 4",
+    "saldoUSDReporte": 22476.763199999998,
+    "valorPortafolioReporte": 135.35999999999999,
+    "portafolioReporte": [
+      {
+        "nombreCriptomoneda": "Raydium",
+        "cantidadCriptomoneda": 6
+      }
+    ],
+    "historialReporte": [
+      {
+        "estatus": "Invalida",
+        "tipoTransaccion": "Venta",
+        "nombreCriptomoneda": "Fartcoin",
+        "simboloCriptomoneda": "FARTCOIN",
+        "cantidad": 10,
+        "precioUSD": 1.12,
+        "valorTransaccionCOP": 44800.00000000001
+      },
+      {
+        "estatus": "Valida",
+        "tipoTransaccion": "Compra",
+        "nombreCriptomoneda": "Raydium",
+        "simboloCriptomoneda": "RAY",
+        "cantidad": 6,
+        "precioUSD": 3.76,
+        "valorTransaccionCOP": 90240.0
+      }
+    ]
+  },
+  {
+    "nombreReporte": "User 5",
     "saldoUSDReporte": 22500.0,
     "valorPortafolioReporte": 0.0,
     "portafolioReporte": [],
@@ -100,51 +127,20 @@
       {
         "estatus": "Invalida",
         "tipoTransaccion": "Venta",
-        "nombreCriptomoneda": "Mantle Staked Ether",
-        "simboloCriptomoneda": "METH",
-        "cantidad": 6,
-        "precioUSD": 5059.36,
-        "valorTransaccionCOP": 1.2142463999999999E8
-      },
-      {
-        "estatus": "Invalida",
-        "tipoTransaccion": "Venta",
-        "nombreCriptomoneda": "PancakeSwap",
-        "simboloCriptomoneda": "CAKE",
-        "cantidad": 1,
-        "precioUSD": 2.93,
-        "valorTransaccionCOP": 11720.0
-      }
-    ]
-  },
-  {
-    "nombreReporte": "User 5",
-    "saldoUSDReporte": 22491.818071740003,
-    "valorPortafolioReporte": 74.38116599999998,
-    "portafolioReporte": [
-      {
-        "nombreCriptomoneda": "Theta Token",
-        "cantidadCriptomoneda": 9
-      }
-    ],
-    "historialReporte": [
-      {
-        "estatus": "Valida",
-        "tipoTransaccion": "Compra",
-        "nombreCriptomoneda": "Theta Token",
-        "simboloCriptomoneda": "THETA",
+        "nombreCriptomoneda": "VeChain",
+        "simboloCriptomoneda": "VET",
         "cantidad": 9,
-        "precioUSD": 0.918286,
-        "valorTransaccionCOP": 33058.296
+        "precioUSD": 0.026579,
+        "valorTransaccionCOP": 956.8439999999999
       },
       {
         "estatus": "Invalida",
         "tipoTransaccion": "Venta",
-        "nombreCriptomoneda": "TRON",
-        "simboloCriptomoneda": "TRX",
-        "cantidad": 4,
-        "precioUSD": 0.361914,
-        "valorTransaccionCOP": 5790.624
+        "nombreCriptomoneda": "Internet Computer (IOU)",
+        "simboloCriptomoneda": "ICP",
+        "cantidad": 3,
+        "precioUSD": 6.03,
+        "valorTransaccionCOP": 72360.0
       }
     ]
   }
