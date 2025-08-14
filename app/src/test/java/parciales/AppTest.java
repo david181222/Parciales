@@ -4,8 +4,508 @@
 package parciales;
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Nested;
 import static org.junit.jupiter.api.Assertions.*;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
+import parciales.model.*;
+import parciales.services.*;
+
+@DisplayName("Pruebas Unitarias del Sistema de Criptomonedas")
 class AppTest {
 
+    private Usuario usuario;
+    private Criptomoneda bitcoin;
+    private Criptomoneda ethereum;
+
+    @BeforeEach
+    void setUp() {
+        // Inicializar objetos comunes para las pruebas
+        usuario = new Usuario("Test User", 100000.0);
+        
+        // Crear criptomonedas usando setters
+        bitcoin = new Criptomoneda();
+        bitcoin.setId("bitcoin");
+        bitcoin.setSymbol("BTC");
+        bitcoin.setName("Bitcoin");
+        bitcoin.setPrice_usd("50000.0");
+        
+        ethereum = new Criptomoneda();
+        ethereum.setId("ethereum");
+        ethereum.setSymbol("ETH");
+        ethereum.setName("Ethereum");
+        ethereum.setPrice_usd("3000.0");
+    }
+
+    @Nested
+    @DisplayName("Pruebas de la clase Usuario")
+    class UsuarioTests {
+
+        @Test
+        @DisplayName("Debería crear un usuario válido correctamente")
+        void deberiaCrearUsuarioValido() {
+            // Arrange & Act
+            Usuario nuevoUsuario = new Usuario("Juan Pérez", 50000.0);
+
+            // Assert
+            assertNotNull(nuevoUsuario, "El usuario no debería ser nulo");
+            assertEquals("Juan Pérez", nuevoUsuario.getName(), "El nombre debería coincidir");
+            assertEquals(50000.0, nuevoUsuario.getSaldoCOP(), 0.01, "El saldo COP debería coincidir");
+            assertEquals(12.5, nuevoUsuario.getSaldoUSD(), 0.01, "El saldo USD debería ser el equivalente (50000/4000)");
+            assertNotNull(nuevoUsuario.getPortafolio(), "El portafolio no debería ser nulo");
+            assertNotNull(nuevoUsuario.getHistorial(), "El historial no debería ser nulo");
+            assertTrue(nuevoUsuario.getPortafolio().isEmpty(), "El portafolio debería estar vacío inicialmente");
+            assertTrue(nuevoUsuario.getHistorial().isEmpty(), "El historial debería estar vacío inicialmente");
+        }
+
+        @Test
+        @DisplayName("Debería lanzar excepción al crear usuario con nombre nulo")
+        void deberiaLanzarExcepcionConNombreNulo() {
+            // Act & Assert
+            IllegalArgumentException exception = assertThrows(
+                IllegalArgumentException.class,
+                () -> new Usuario(null, 50000.0),
+                "Debería lanzar IllegalArgumentException para nombre nulo"
+            );
+            
+            assertTrue(exception.getMessage().contains("nombre"), 
+                "El mensaje de error debería mencionar el nombre");
+        }
+
+        @Test
+        @DisplayName("Debería lanzar excepción al crear usuario con nombre vacío")
+        void deberiaLanzarExcepcionConNombreVacio() {
+            // Act & Assert
+            IllegalArgumentException exception = assertThrows(
+                IllegalArgumentException.class,
+                () -> new Usuario("   ", 50000.0),
+                "Debería lanzar IllegalArgumentException para nombre vacío"
+            );
+            
+            assertTrue(exception.getMessage().contains("nombre"), 
+                "El mensaje de error debería mencionar el nombre");
+        }
+
+        @Test
+        @DisplayName("Debería lanzar excepción al crear usuario con saldo negativo")
+        void deberiaLanzarExcepcionConSaldoNegativo() {
+            // Act & Assert
+            IllegalArgumentException exception = assertThrows(
+                IllegalArgumentException.class,
+                () -> new Usuario("Test User", -1000.0),
+                "Debería lanzar IllegalArgumentException para saldo negativo"
+            );
+            
+            assertTrue(exception.getMessage().contains("saldo"), 
+                "El mensaje de error debería mencionar el saldo");
+        }
+
+        @Test
+        @DisplayName("Debería actualizar el saldo correctamente")
+        void deberiaActualizarSaldoCorrectamente() {
+            // Arrange
+            double cantidadAumento = 25000.0;
+            double saldoInicial = usuario.getSaldoCOP();
+
+            // Act
+            usuario.aumentarSaldo(cantidadAumento);
+
+            // Assert
+            assertEquals(saldoInicial + cantidadAumento, usuario.getSaldoCOP(), 0.01, 
+                "El saldo debería haberse aumentado correctamente");
+        }
+
+        @Test
+        @DisplayName("Debería agregar criptomoneda al portafolio")
+        void deberiaAgregarCriptomonedaAlPortafolio() {
+            // Act
+            usuario.getPortafolio().add(bitcoin, 2);
+
+            // Assert
+            assertEquals(2, usuario.getPortafolio().getCount(bitcoin), 
+                "Debería tener 2 bitcoins en el portafolio");
+            assertFalse(usuario.getPortafolio().isEmpty(), 
+                "El portafolio no debería estar vacío");
+        }
+    }
+
+    @Nested
+    @DisplayName("Pruebas de la clase Transaccion")
+    class TransaccionTests {
+
+        @Test
+        @DisplayName("Debería crear una transacción válida")
+        void deberiaCrearTransaccionValida() {
+            // Act
+            Transaccion transaccion = new Transaccion(usuario);
+
+            // Assert
+            assertNotNull(transaccion, "La transacción no debería ser nula");
+            assertEquals(usuario, transaccion.getUsuario(), "El usuario debería coincidir");
+            // El estatus se inicializa cuando se procesa la transacción, no en el constructor
+        }
+
+        @Test
+        @DisplayName("Debería lanzar excepción al crear transacción con usuario nulo")
+        void deberiaLanzarExcepcionConUsuarioNulo() {
+            // Act & Assert
+            IllegalArgumentException exception = assertThrows(
+                IllegalArgumentException.class,
+                () -> new Transaccion(null),
+                "Debería lanzar IllegalArgumentException para usuario nulo"
+            );
+            
+            assertTrue(exception.getMessage().contains("usuario"), 
+                "El mensaje de error debería mencionar el usuario");
+        }
+
+        @Test
+        @DisplayName("Debería establecer tipo de transacción válido")
+        void deberiaEstablecerTipoTransaccionValido() {
+            // Arrange
+            Transaccion transaccion = new Transaccion(usuario);
+
+            // Act
+            transaccion.setTipoTransaccion("Compra");
+
+            // Assert
+            assertEquals("Compra", transaccion.getTipoTransaccion(), 
+                "El tipo de transacción debería ser 'Compra'");
+        }
+
+        @Test
+        @DisplayName("Debería lanzar excepción con tipo de transacción inválido")
+        void deberiaLanzarExcepcionConTipoInvalido() {
+            // Arrange
+            Transaccion transaccion = new Transaccion(usuario);
+
+            // Act & Assert
+            IllegalArgumentException exception = assertThrows(
+                IllegalArgumentException.class,
+                () -> transaccion.setTipoTransaccion("Intercambio"),
+                "Debería lanzar IllegalArgumentException para tipo inválido"
+            );
+            
+            assertTrue(exception.getMessage().contains("inválido"), 
+                "El mensaje debería indicar que el tipo es inválido");
+        }
+
+        @Test
+        @DisplayName("Debería establecer criptomoneda correctamente")
+        void deberiaEstablecerCriptomoneda() {
+            // Arrange
+            Transaccion transaccion = new Transaccion(usuario);
+
+            // Act
+            transaccion.setCriptomoneda(bitcoin);
+
+            // Assert
+            assertEquals(bitcoin, transaccion.getCriptomoneda(), 
+                "La criptomoneda debería coincidir");
+        }
+
+        @Test
+        @DisplayName("Debería establecer cantidad de cripto correctamente")
+        void deberiaEstablecerCantidadCripto() {
+            // Arrange
+            Transaccion transaccion = new Transaccion(usuario);
+
+            // Act
+            transaccion.setCantidadCripto(5);
+
+            // Assert
+            assertEquals(5, transaccion.getCantidadCripto(), 
+                "La cantidad de cripto debería ser 5");
+        }
+    }
+
+    @Nested
+    @DisplayName("Pruebas de la clase Criptomoneda")
+    class CriptomonedaTests {
+
+        @Test
+        @DisplayName("Debería crear una criptomoneda válida")
+        void deberiaCrearCriptomonedaValida() {
+            // Arrange & Act
+            Criptomoneda cripto = new Criptomoneda();
+            cripto.setId("cardano");
+            cripto.setSymbol("ADA");
+            cripto.setName("Cardano");
+            cripto.setPrice_usd("1.50");
+
+            // Assert
+            assertNotNull(cripto, "La criptomoneda no debería ser nula");
+            assertEquals("ADA", cripto.getSymbol(), "El símbolo debería coincidir");
+            assertEquals("Cardano", cripto.getName(), "El nombre debería coincidir");
+            assertEquals("1.50", cripto.getPrice_usd(), "El precio debería coincidir");
+        }
+
+        @Test
+        @DisplayName("Debería lanzar excepción con símbolo nulo")
+        void deberiaLanzarExcepcionConSimboloNulo() {
+            // Arrange
+            Criptomoneda cripto = new Criptomoneda();
+            
+            // Act & Assert
+            IllegalArgumentException exception = assertThrows(
+                IllegalArgumentException.class,
+                () -> cripto.setSymbol(null),
+                "Debería lanzar IllegalArgumentException para símbolo nulo"
+            );
+            
+            assertTrue(exception.getMessage().contains("símbolo") || 
+                      exception.getMessage().contains("symbol"), 
+                "El mensaje debería mencionar el símbolo");
+        }
+
+        @Test
+        @DisplayName("Debería lanzar excepción con precio negativo")
+        void deberiaLanzarExcepcionConPrecioNegativo() {
+            // Arrange
+            Criptomoneda cripto = new Criptomoneda();
+            
+            // Act & Assert
+            IllegalArgumentException exception = assertThrows(
+                IllegalArgumentException.class,
+                () -> cripto.setPrice_usd("-50.0"),
+                "Debería lanzar IllegalArgumentException para precio negativo"
+            );
+            
+            assertTrue(exception.getMessage().contains("precio") || 
+                      exception.getMessage().contains("negativo"), 
+                "El mensaje debería mencionar el precio");
+        }
+    }
+
+    @Nested
+    @DisplayName("Pruebas del TransactionProcessorService")
+    class TransactionProcessorServiceTests {
+
+        @BeforeEach
+        void limpiarCola() {
+            // Limpiar la cola de transacciones antes de cada prueba
+            while (TransactionProcessorService.transaccionesEnCola()) {
+                TransactionProcessorService.procesarSiguienteTransaccion();
+            }
+        }
+
+        @Test
+        @DisplayName("Debería agregar transacción a la cola")
+        void deberiaAgregarTransaccionACola() {
+            // Arrange
+            Transaccion transaccion = new Transaccion(usuario);
+            transaccion.setTipoTransaccion("Compra");
+            transaccion.setCriptomoneda(bitcoin);
+            transaccion.setCantidadCripto(1);
+
+            // Act
+            TransactionProcessorService.meterTransaccion(transaccion);
+
+            // Assert
+            assertTrue(TransactionProcessorService.transaccionesEnCola(), 
+                "Debería haber transacciones en cola");
+        }
+
+        @Test
+        @DisplayName("Debería procesar transacción de la cola")
+        void deberiaProcesarTransaccionDeCola() {
+            // Arrange
+            Transaccion transaccion = new Transaccion(usuario);
+            transaccion.setTipoTransaccion("Compra");
+            transaccion.setCriptomoneda(bitcoin);
+            transaccion.setCantidadCripto(1);
+            
+            TransactionProcessorService.meterTransaccion(transaccion);
+
+            // Act
+            Transaccion transaccionProcesada = TransactionProcessorService.procesarSiguienteTransaccion();
+
+            // Assert
+            assertNotNull(transaccionProcesada, "La transacción procesada no debería ser nula");
+            assertEquals(transaccion.getTipoTransaccion(), transaccionProcesada.getTipoTransaccion(), 
+                "Debería tener el mismo tipo de transacción");
+            assertEquals(transaccion.getCriptomoneda(), transaccionProcesada.getCriptomoneda(), 
+                "Debería tener la misma criptomoneda");
+            assertEquals(transaccion.getCantidadCripto(), transaccionProcesada.getCantidadCripto(), 
+                "Debería tener la misma cantidad");
+        }
+
+        @Test
+        @DisplayName("Debería lanzar excepción al agregar transacción nula")
+        void deberiaLanzarExcepcionConTransaccionNula() {
+            // Act & Assert
+            RuntimeException exception = assertThrows(
+                RuntimeException.class,
+                () -> TransactionProcessorService.meterTransaccion(null),
+                "Debería lanzar RuntimeException para transacción nula"
+            );
+            
+            assertTrue(exception.getMessage().contains("transacción"), 
+                "El mensaje debería mencionar la transacción");
+        }
+    }
+
+    @Nested
+    @DisplayName("Pruebas de GetApi Service")
+    class GetApiServiceTests {
+
+        @Test
+        @DisplayName("Debería instanciar GetApi correctamente")
+        void deberiaInstanciarGetApiCorrectamente() {
+            // Act
+            GetApi api = new GetApi();
+
+            // Assert
+            assertNotNull(api, "GetApi no debería ser nulo");
+        }
+
+        @Test
+        @DisplayName("Debería obtener lista de criptomonedas")
+        void deberiaObtenerListaCriptomonedas() {
+            // Arrange
+            GetApi api = new GetApi();
+
+            // Act & Assert - Solo verificamos que no lance excepción
+            assertDoesNotThrow(() -> {
+                var criptomonedas = api.getApi();
+                assertNotNull(criptomonedas, "La lista de criptomonedas no debería ser nula");
+            }, "No debería lanzar excepción al obtener criptomonedas");
+        }
+    }
+
+    @Nested
+    @DisplayName("Pruebas del ReporteService")
+    class ReporteServiceTests {
+
+        @Test
+        @DisplayName("Debería instanciar ReporteService correctamente")
+        void deberiaInstanciarReporteServiceCorrectamente() {
+            // Act
+            ReporteService reporteService = new ReporteService();
+
+            // Assert
+            assertNotNull(reporteService, "ReporteService no debería ser nulo");
+        }
+
+        @Test
+        @DisplayName("Debería procesar usuarios para reporte")
+        void deberiaProcesarUsuariosParaReporte() {
+            // Arrange
+            ReporteService reporteService = new ReporteService();
+            Queue<Usuario> usuarios = new LinkedList<>();
+            usuarios.add(usuario);
+
+            // Act & Assert
+            assertDoesNotThrow(() -> {
+                Queue<UsuarioReporte> usuariosReporte = reporteService.usuariosProcesados(usuarios);
+                assertNotNull(usuariosReporte, "Los usuarios para reporte no deberían ser nulos");
+            }, "No debería lanzar excepción al procesar usuarios");
+        }
+    }
+
+    @Nested
+    @DisplayName("Pruebas de Integración")
+    class IntegracionTests {
+
+        @BeforeEach
+        void limpiarCola() {
+            // Limpiar la cola de transacciones antes de cada prueba
+            while (TransactionProcessorService.transaccionesEnCola()) {
+                TransactionProcessorService.procesarSiguienteTransaccion();
+            }
+        }
+
+        @Test
+        @DisplayName("Debería procesar una transacción de compra completa")
+        void deberiaProcesarTransaccionCompraCompleta() {
+            // Arrange
+            Usuario comprador = new Usuario("Comprador", 100000.0);
+            Transaccion transaccionCompra = new Transaccion(comprador);
+            transaccionCompra.setTipoTransaccion("Compra");
+            transaccionCompra.setCriptomoneda(bitcoin);
+            transaccionCompra.setCantidadCripto(1);
+
+            // Act
+            TransactionProcessorService.meterTransaccion(transaccionCompra);
+            assertTrue(TransactionProcessorService.transaccionesEnCola(), 
+                "Debería haber transacciones en cola");
+
+            Transaccion procesada = TransactionProcessorService.procesarSiguienteTransaccion();
+            
+            // Assert
+            assertNotNull(procesada, "La transacción procesada no debería ser nula");
+            assertEquals("Compra", procesada.getTipoTransaccion(), 
+                "Debería ser una transacción de compra");
+            assertEquals(bitcoin.getSymbol(), procesada.getCriptomoneda().getSymbol(), 
+                "Debería ser bitcoin");
+            assertEquals(1, procesada.getCantidadCripto(), 
+                "Debería ser 1 bitcoin");
+        }
+
+        @Test
+        @DisplayName("Debería manejar múltiples transacciones en orden FIFO")
+        void deberiaManejarMultiplesTransaccionesEnOrdenFIFO() {
+            // Arrange
+            Usuario usuario1 = new Usuario("Usuario 1", 50000.0);
+            Usuario usuario2 = new Usuario("Usuario 2", 75000.0);
+            
+            Transaccion transaccion1 = new Transaccion(usuario1);
+            transaccion1.setTipoTransaccion("Compra");
+            transaccion1.setCriptomoneda(bitcoin);
+            transaccion1.setCantidadCripto(1);
+            
+            Transaccion transaccion2 = new Transaccion(usuario2);
+            transaccion2.setTipoTransaccion("Venta");
+            transaccion2.setCriptomoneda(ethereum);
+            transaccion2.setCantidadCripto(2);
+
+            // Act
+            TransactionProcessorService.meterTransaccion(transaccion1);
+            TransactionProcessorService.meterTransaccion(transaccion2);
+
+            Transaccion primera = TransactionProcessorService.procesarSiguienteTransaccion();
+            Transaccion segunda = TransactionProcessorService.procesarSiguienteTransaccion();
+
+            // Assert
+            assertEquals("Usuario 1", primera.getUsuario().getName(), 
+                "La primera transacción debería ser la del usuario1");
+            assertEquals("Usuario 2", segunda.getUsuario().getName(), 
+                "La segunda transacción debería ser la del usuario2");
+            assertEquals("Compra", primera.getTipoTransaccion(), 
+                "La primera debería ser de compra");
+            assertEquals("Venta", segunda.getTipoTransaccion(), 
+                "La segunda debería ser de venta");
+        }
+    }
+
+    @Nested
+    @DisplayName("Pruebas de Manejo de Errores")
+    class ManejoErroresTests {
+
+        @Test
+        @DisplayName("Debería capturar y manejar RuntimeException en el flujo principal")
+        void deberiaCapturarRuntimeException() {
+            // Este test simula el manejo de errores que se hace en App.main()
+            // Act & Assert
+            RuntimeException exception = assertThrows(RuntimeException.class, () -> {
+                try {
+                    // Simulamos una operación que podría fallar
+                    Usuario usuarioInvalido = new Usuario("Test", 1000.0);
+                    Transaccion transaccion = new Transaccion(usuarioInvalido);
+                    transaccion.setTipoTransaccion("TipoInvalido"); // Esto debería fallar
+                } catch (IllegalArgumentException e) {
+                    // Simulamos el manejo del error como en App.main()
+                    throw new RuntimeException("Ocurrió un error en la aplicación: " + e.getMessage());
+                }
+            }, "El sistema debería manejar las excepciones apropiadamente");
+            
+            // Verificamos que el mensaje de error sea el esperado
+            assertTrue(exception.getMessage().contains("Ocurrió un error en la aplicación"), 
+                "El mensaje debería indicar que ocurrió un error en la aplicación");
+        }
+    }
 }

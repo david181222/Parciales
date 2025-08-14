@@ -173,3 +173,1487 @@
 2025-08-13 18:29:25 [main] INFO  parciales.services.ReporteService - Procesamiento de usuarios completado. 5 reportes generados
 2025-08-13 18:29:25 [main] INFO  parciales.services.ReporteService - Iniciando guardado de reportes...
 2025-08-13 18:29:25 [main] ERROR parciales.services.ReporteService - Error al guardar el archivo de reportes: app\src\main\resources\reportes.json (El sistema no puede encontrar la ruta especificada)
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Usuario - Usuario creado: Test con saldo inicial de $1000.0 COP
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Transaccion - Transacción creada para usuario: Test
+2025-08-13 19:36:57 [Test worker] ERROR parciales.model.Transaccion - Error al establecer tipo de transacción: Tipo de transacción inválido. Solo se permiten 'Compra' o 'Venta'
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Usuario - Usuario creado: Usuario 1 con saldo inicial de $50000.0 COP
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Usuario - Usuario creado: Usuario 2 con saldo inicial de $75000.0 COP
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Transaccion - Transacción creada para usuario: Usuario 1
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Compra para usuario Usuario 1
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Transaccion - Criptomoneda establecida: BTC para transacción de usuario Usuario 1
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Transaccion - Cantidad establecida: 1 para transacción de usuario Usuario 1
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Transaccion - Transacción creada para usuario: Usuario 2
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Venta para usuario Usuario 2
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Transaccion - Criptomoneda establecida: ETH para transacción de usuario Usuario 2
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Transaccion - Cantidad establecida: 2 para transacción de usuario Usuario 2
+2025-08-13 19:36:57 [Test worker] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Compra 1 de BTC por Usuario 1
+2025-08-13 19:36:57 [Test worker] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Venta 2 de ETH por Usuario 2
+2025-08-13 19:36:57 [Test worker] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Compra 1 de BTC por Usuario 1
+2025-08-13 19:36:57 [Test worker] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 19:36:57 [Test worker] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Venta 2 de ETH por Usuario 2
+2025-08-13 19:36:57 [Test worker] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Usuario - Usuario creado: Comprador con saldo inicial de $100000.0 COP
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Transaccion - Transacción creada para usuario: Comprador
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Compra para usuario Comprador
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Transaccion - Criptomoneda establecida: BTC para transacción de usuario Comprador
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Transaccion - Cantidad establecida: 1 para transacción de usuario Comprador
+2025-08-13 19:36:57 [Test worker] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Compra 1 de BTC por Comprador
+2025-08-13 19:36:57 [Test worker] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Compra 1 de BTC por Comprador
+2025-08-13 19:36:57 [Test worker] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:36:57 [Test worker] INFO  parciales.services.ReporteService - Procesando 1 usuarios para el reporte...
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Usuario - Valor del portafolio calculado para usuario Test User: $0.0 USD
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Usuario - Generado reporte de portafolio para usuario Test User: 0 tipos de criptomonedas
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Usuario - Generado historial de reportes para usuario Test User: 0 transacciones
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.UsuarioReporte - Reporte de usuario creado: Test User - Saldo: $25.0 USD - Portafolio: $0.0 USD - Transacciones: 0
+2025-08-13 19:36:57 [Test worker] INFO  parciales.services.ReporteService - Usuario procesado para reporte: Test User - Saldo: $25.0 USD - Portafolio: $0.0 USD
+2025-08-13 19:36:57 [Test worker] INFO  parciales.services.ReporteService - Procesamiento de usuarios completado. 1 reportes generados
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:36:57 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:36:57 [Test worker] INFO  parciales.services.GetApi - Iniciando llamada a la API de criptomonedas...
+2025-08-13 19:36:58 [Test worker] INFO  parciales.services.GetApi - Enviando solicitud HTTP a: https://api.coinlore.net/api/tickers/
+2025-08-13 19:36:59 [Test worker] INFO  parciales.services.GetApi - API consultada exitosamente. Se obtuvieron 100 criptomonedas
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Transaccion - Transacción creada para usuario: Test User
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Compra para usuario Test User
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Transaccion - Criptomoneda establecida: BTC para transacción de usuario Test User
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Transaccion - Cantidad establecida: 1 para transacción de usuario Test User
+2025-08-13 19:36:59 [Test worker] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Compra 1 de BTC por Test User
+2025-08-13 19:36:59 [Test worker] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Compra 1 de BTC por Test User
+2025-08-13 19:36:59 [Test worker] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Transaccion - Transacción creada para usuario: Test User
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Compra para usuario Test User
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Transaccion - Criptomoneda establecida: BTC para transacción de usuario Test User
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Transaccion - Cantidad establecida: 1 para transacción de usuario Test User
+2025-08-13 19:36:59 [Test worker] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Compra 1 de BTC por Test User
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:36:59 [Test worker] ERROR parciales.services.TransactionProcessorService - Error al agregar transacción a la cola: La transacción no puede ser nula
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:36:59 [Test worker] ERROR parciales.model.Criptomoneda - Error al establecer símbolo de criptomoneda: El símbolo de la criptomoneda no puede ser nulo o vacío
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: cardano
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ADA
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Cardano
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ADA: $1.50 USD
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:36:59 [Test worker] ERROR parciales.model.Criptomoneda - Error al establecer precio de criptomoneda: El precio no puede ser negativo
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Transaccion - Transacción creada para usuario: Test User
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Transaccion - Cantidad establecida: 5 para transacción de usuario Test User
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Transaccion - Transacción creada para usuario: Test User
+2025-08-13 19:36:59 [Test worker] ERROR parciales.model.Transaccion - Error al establecer tipo de transacción: Tipo de transacción inválido. Solo se permiten 'Compra' o 'Venta'
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:36:59 [Test worker] ERROR parciales.model.Transaccion - Error al crear transacción: El usuario no puede ser nulo
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Transaccion - Transacción creada para usuario: Test User
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Transaccion - Transacción creada para usuario: Test User
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Compra para usuario Test User
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Transaccion - Transacción creada para usuario: Test User
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Transaccion - Criptomoneda establecida: BTC para transacción de usuario Test User
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:36:59 [Test worker] ERROR parciales.model.Usuario - Error al crear usuario: El saldo inicial no puede ser negativo
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:36:59 [Test worker] ERROR parciales.model.Usuario - Error al crear usuario: El nombre del usuario no puede ser nulo o vacío
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Usuario - Saldo aumentado en $25000.0 COP para usuario Test User. Nuevo saldo: $125000.0 COP
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:36:59 [Test worker] ERROR parciales.model.Usuario - Error al crear usuario: El nombre del usuario no puede ser nulo o vacío
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:36:59 [Test worker] INFO  parciales.model.Usuario - Usuario creado: Juan Pérez con saldo inicial de $50000.0 COP
+2025-08-13 19:36:59 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:36:59 [main] ERROR parciales.model.Criptomoneda - Error al establecer símbolo de criptomoneda: El símbolo de la criptomoneda no puede ser nulo o vacío
+2025-08-13 19:36:59 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: cardano
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ADA
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Cardano
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ADA: $1.50 USD
+2025-08-13 19:36:59 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:36:59 [main] ERROR parciales.model.Criptomoneda - Error al establecer precio de criptomoneda: El precio no puede ser negativo
+2025-08-13 19:36:59 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:36:59 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:36:59 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:36:59 [main] INFO  parciales.services.GetApi - Iniciando llamada a la API de criptomonedas...
+2025-08-13 19:37:00 [main] INFO  parciales.services.GetApi - Enviando solicitud HTTP a: https://api.coinlore.net/api/tickers/
+2025-08-13 19:37:01 [main] INFO  parciales.services.GetApi - API consultada exitosamente. Se obtuvieron 100 criptomonedas
+2025-08-13 19:37:01 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Usuario - Usuario creado: Usuario 1 con saldo inicial de $50000.0 COP
+2025-08-13 19:37:01 [main] INFO  parciales.model.Usuario - Usuario creado: Usuario 2 con saldo inicial de $75000.0 COP
+2025-08-13 19:37:01 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Usuario 1
+2025-08-13 19:37:01 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Compra para usuario Usuario 1
+2025-08-13 19:37:01 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: BTC para transacción de usuario Usuario 1
+2025-08-13 19:37:01 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 1 para transacción de usuario Usuario 1
+2025-08-13 19:37:01 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Usuario 2
+2025-08-13 19:37:01 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Venta para usuario Usuario 2
+2025-08-13 19:37:01 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: ETH para transacción de usuario Usuario 2
+2025-08-13 19:37:01 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 2 para transacción de usuario Usuario 2
+2025-08-13 19:37:01 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Compra 1 de BTC por Usuario 1
+2025-08-13 19:37:01 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Venta 2 de ETH por Usuario 2
+2025-08-13 19:37:01 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Compra 1 de BTC por Usuario 1
+2025-08-13 19:37:01 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 19:37:01 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Venta 2 de ETH por Usuario 2
+2025-08-13 19:37:01 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 19:37:01 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Usuario - Usuario creado: Comprador con saldo inicial de $100000.0 COP
+2025-08-13 19:37:01 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Comprador
+2025-08-13 19:37:01 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Compra para usuario Comprador
+2025-08-13 19:37:01 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: BTC para transacción de usuario Comprador
+2025-08-13 19:37:01 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 1 para transacción de usuario Comprador
+2025-08-13 19:37:01 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Compra 1 de BTC por Comprador
+2025-08-13 19:37:01 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Compra 1 de BTC por Comprador
+2025-08-13 19:37:01 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 19:37:01 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Usuario - Usuario creado: Test con saldo inicial de $1000.0 COP
+2025-08-13 19:37:01 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Test
+2025-08-13 19:37:01 [main] ERROR parciales.model.Transaccion - Error al establecer tipo de transacción: Tipo de transacción inválido. Solo se permiten 'Compra' o 'Venta'
+2025-08-13 19:37:01 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.services.ReporteService - Procesando 1 usuarios para el reporte...
+2025-08-13 19:37:01 [main] INFO  parciales.model.Usuario - Valor del portafolio calculado para usuario Test User: $0.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Usuario - Generado reporte de portafolio para usuario Test User: 0 tipos de criptomonedas
+2025-08-13 19:37:01 [main] INFO  parciales.model.Usuario - Generado historial de reportes para usuario Test User: 0 transacciones
+2025-08-13 19:37:01 [main] INFO  parciales.model.UsuarioReporte - Reporte de usuario creado: Test User - Saldo: $25.0 USD - Portafolio: $0.0 USD - Transacciones: 0
+2025-08-13 19:37:01 [main] INFO  parciales.services.ReporteService - Usuario procesado para reporte: Test User - Saldo: $25.0 USD - Portafolio: $0.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.services.ReporteService - Procesamiento de usuarios completado. 1 reportes generados
+2025-08-13 19:37:01 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Test User
+2025-08-13 19:37:01 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 5 para transacción de usuario Test User
+2025-08-13 19:37:01 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Test User
+2025-08-13 19:37:01 [main] ERROR parciales.model.Transaccion - Error al establecer tipo de transacción: Tipo de transacción inválido. Solo se permiten 'Compra' o 'Venta'
+2025-08-13 19:37:01 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:01 [main] ERROR parciales.model.Transaccion - Error al crear transacción: El usuario no puede ser nulo
+2025-08-13 19:37:01 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Test User
+2025-08-13 19:37:01 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Test User
+2025-08-13 19:37:01 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Compra para usuario Test User
+2025-08-13 19:37:01 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Test User
+2025-08-13 19:37:01 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: BTC para transacción de usuario Test User
+2025-08-13 19:37:01 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Test User
+2025-08-13 19:37:01 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Compra para usuario Test User
+2025-08-13 19:37:01 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: BTC para transacción de usuario Test User
+2025-08-13 19:37:01 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 1 para transacción de usuario Test User
+2025-08-13 19:37:01 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Compra 1 de BTC por Test User
+2025-08-13 19:37:01 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Compra 1 de BTC por Test User
+2025-08-13 19:37:01 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 19:37:01 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Test User
+2025-08-13 19:37:01 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Compra para usuario Test User
+2025-08-13 19:37:01 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: BTC para transacción de usuario Test User
+2025-08-13 19:37:01 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 1 para transacción de usuario Test User
+2025-08-13 19:37:01 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Compra 1 de BTC por Test User
+2025-08-13 19:37:01 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:01 [main] ERROR parciales.services.TransactionProcessorService - Error al agregar transacción a la cola: La transacción no puede ser nula
+2025-08-13 19:37:01 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:01 [main] ERROR parciales.model.Usuario - Error al crear usuario: El saldo inicial no puede ser negativo
+2025-08-13 19:37:01 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:01 [main] ERROR parciales.model.Usuario - Error al crear usuario: El nombre del usuario no puede ser nulo o vacío
+2025-08-13 19:37:01 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Usuario - Saldo aumentado en $25000.0 COP para usuario Test User. Nuevo saldo: $125000.0 COP
+2025-08-13 19:37:01 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:01 [main] ERROR parciales.model.Usuario - Error al crear usuario: El nombre del usuario no puede ser nulo o vacío
+2025-08-13 19:37:01 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Usuario - Usuario creado: Juan Pérez con saldo inicial de $50000.0 COP
+2025-08-13 19:37:01 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:01 [main] ERROR parciales.model.Criptomoneda - Error al establecer símbolo de criptomoneda: El símbolo de la criptomoneda no puede ser nulo o vacío
+2025-08-13 19:37:01 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: cardano
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ADA
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Cardano
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ADA: $1.50 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:01 [main] ERROR parciales.model.Criptomoneda - Error al establecer precio de criptomoneda: El precio no puede ser negativo
+2025-08-13 19:37:01 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:01 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:01 [main] INFO  parciales.services.GetApi - Iniciando llamada a la API de criptomonedas...
+2025-08-13 19:37:01 [main] INFO  parciales.services.GetApi - Enviando solicitud HTTP a: https://api.coinlore.net/api/tickers/
+2025-08-13 19:37:02 [main] INFO  parciales.services.GetApi - API consultada exitosamente. Se obtuvieron 100 criptomonedas
+2025-08-13 19:37:02 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:02 [main] INFO  parciales.model.Usuario - Usuario creado: Usuario 1 con saldo inicial de $50000.0 COP
+2025-08-13 19:37:02 [main] INFO  parciales.model.Usuario - Usuario creado: Usuario 2 con saldo inicial de $75000.0 COP
+2025-08-13 19:37:02 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Usuario 1
+2025-08-13 19:37:02 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Compra para usuario Usuario 1
+2025-08-13 19:37:02 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: BTC para transacción de usuario Usuario 1
+2025-08-13 19:37:02 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 1 para transacción de usuario Usuario 1
+2025-08-13 19:37:02 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Usuario 2
+2025-08-13 19:37:02 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Venta para usuario Usuario 2
+2025-08-13 19:37:02 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: ETH para transacción de usuario Usuario 2
+2025-08-13 19:37:02 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 2 para transacción de usuario Usuario 2
+2025-08-13 19:37:02 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Compra 1 de BTC por Usuario 1
+2025-08-13 19:37:02 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Venta 2 de ETH por Usuario 2
+2025-08-13 19:37:02 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Compra 1 de BTC por Test User
+2025-08-13 19:37:02 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 19:37:02 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Compra 1 de BTC por Usuario 1
+2025-08-13 19:37:02 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 19:37:02 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:02 [main] INFO  parciales.model.Usuario - Usuario creado: Comprador con saldo inicial de $100000.0 COP
+2025-08-13 19:37:02 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Comprador
+2025-08-13 19:37:02 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Compra para usuario Comprador
+2025-08-13 19:37:02 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: BTC para transacción de usuario Comprador
+2025-08-13 19:37:02 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 1 para transacción de usuario Comprador
+2025-08-13 19:37:02 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Compra 1 de BTC por Comprador
+2025-08-13 19:37:02 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Venta 2 de ETH por Usuario 2
+2025-08-13 19:37:02 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 19:37:02 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:02 [main] INFO  parciales.model.Usuario - Usuario creado: Test con saldo inicial de $1000.0 COP
+2025-08-13 19:37:02 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Test
+2025-08-13 19:37:02 [main] ERROR parciales.model.Transaccion - Error al establecer tipo de transacción: Tipo de transacción inválido. Solo se permiten 'Compra' o 'Venta'
+2025-08-13 19:37:02 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:02 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:02 [main] INFO  parciales.services.ReporteService - Procesando 1 usuarios para el reporte...
+2025-08-13 19:37:02 [main] INFO  parciales.model.Usuario - Valor del portafolio calculado para usuario Test User: $0.0 USD
+2025-08-13 19:37:02 [main] INFO  parciales.model.Usuario - Generado reporte de portafolio para usuario Test User: 0 tipos de criptomonedas
+2025-08-13 19:37:02 [main] INFO  parciales.model.Usuario - Generado historial de reportes para usuario Test User: 0 transacciones
+2025-08-13 19:37:02 [main] INFO  parciales.model.UsuarioReporte - Reporte de usuario creado: Test User - Saldo: $25.0 USD - Portafolio: $0.0 USD - Transacciones: 0
+2025-08-13 19:37:02 [main] INFO  parciales.services.ReporteService - Usuario procesado para reporte: Test User - Saldo: $25.0 USD - Portafolio: $0.0 USD
+2025-08-13 19:37:02 [main] INFO  parciales.services.ReporteService - Procesamiento de usuarios completado. 1 reportes generados
+2025-08-13 19:37:02 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:02 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Test User
+2025-08-13 19:37:02 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 5 para transacción de usuario Test User
+2025-08-13 19:37:02 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:02 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Test User
+2025-08-13 19:37:02 [main] ERROR parciales.model.Transaccion - Error al establecer tipo de transacción: Tipo de transacción inválido. Solo se permiten 'Compra' o 'Venta'
+2025-08-13 19:37:02 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:02 [main] ERROR parciales.model.Transaccion - Error al crear transacción: El usuario no puede ser nulo
+2025-08-13 19:37:02 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:02 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Test User
+2025-08-13 19:37:02 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:02 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Test User
+2025-08-13 19:37:02 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Compra para usuario Test User
+2025-08-13 19:37:02 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:02 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Test User
+2025-08-13 19:37:02 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: BTC para transacción de usuario Test User
+2025-08-13 19:37:02 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:02 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Test User
+2025-08-13 19:37:02 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Compra para usuario Test User
+2025-08-13 19:37:02 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: BTC para transacción de usuario Test User
+2025-08-13 19:37:02 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 1 para transacción de usuario Test User
+2025-08-13 19:37:02 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Compra 1 de BTC por Test User
+2025-08-13 19:37:02 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Compra 1 de BTC por Comprador
+2025-08-13 19:37:02 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 19:37:02 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:02 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Test User
+2025-08-13 19:37:02 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Compra para usuario Test User
+2025-08-13 19:37:02 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: BTC para transacción de usuario Test User
+2025-08-13 19:37:02 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 1 para transacción de usuario Test User
+2025-08-13 19:37:02 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Compra 1 de BTC por Test User
+2025-08-13 19:37:02 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:02 [main] ERROR parciales.services.TransactionProcessorService - Error al agregar transacción a la cola: La transacción no puede ser nula
+2025-08-13 19:37:02 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:02 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:02 [main] ERROR parciales.model.Usuario - Error al crear usuario: El saldo inicial no puede ser negativo
+2025-08-13 19:37:02 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:02 [main] ERROR parciales.model.Usuario - Error al crear usuario: El nombre del usuario no puede ser nulo o vacío
+2025-08-13 19:37:02 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:02 [main] INFO  parciales.model.Usuario - Saldo aumentado en $25000.0 COP para usuario Test User. Nuevo saldo: $125000.0 COP
+2025-08-13 19:37:02 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:02 [main] ERROR parciales.model.Usuario - Error al crear usuario: El nombre del usuario no puede ser nulo o vacío
+2025-08-13 19:37:02 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:37:02 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:37:02 [main] INFO  parciales.model.Usuario - Usuario creado: Juan Pérez con saldo inicial de $50000.0 COP
+2025-08-13 19:38:51 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:51 [main] ERROR parciales.model.Criptomoneda - Error al establecer símbolo de criptomoneda: El símbolo de la criptomoneda no puede ser nulo o vacío
+2025-08-13 19:38:51 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: cardano
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ADA
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Cardano
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ADA: $1.50 USD
+2025-08-13 19:38:51 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:51 [main] ERROR parciales.model.Criptomoneda - Error al establecer precio de criptomoneda: El precio no puede ser negativo
+2025-08-13 19:38:51 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:51 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:51 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:51 [main] INFO  parciales.services.GetApi - Iniciando llamada a la API de criptomonedas...
+2025-08-13 19:38:52 [main] INFO  parciales.services.GetApi - Enviando solicitud HTTP a: https://api.coinlore.net/api/tickers/
+2025-08-13 19:38:53 [main] INFO  parciales.services.GetApi - API consultada exitosamente. Se obtuvieron 100 criptomonedas
+2025-08-13 19:38:53 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Usuario - Usuario creado: Usuario 1 con saldo inicial de $50000.0 COP
+2025-08-13 19:38:53 [main] INFO  parciales.model.Usuario - Usuario creado: Usuario 2 con saldo inicial de $75000.0 COP
+2025-08-13 19:38:53 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Usuario 1
+2025-08-13 19:38:53 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Compra para usuario Usuario 1
+2025-08-13 19:38:53 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: BTC para transacción de usuario Usuario 1
+2025-08-13 19:38:53 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 1 para transacción de usuario Usuario 1
+2025-08-13 19:38:53 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Usuario 2
+2025-08-13 19:38:53 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Venta para usuario Usuario 2
+2025-08-13 19:38:53 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: ETH para transacción de usuario Usuario 2
+2025-08-13 19:38:53 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 2 para transacción de usuario Usuario 2
+2025-08-13 19:38:53 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Compra 1 de BTC por Usuario 1
+2025-08-13 19:38:53 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Venta 2 de ETH por Usuario 2
+2025-08-13 19:38:53 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Compra 1 de BTC por Usuario 1
+2025-08-13 19:38:53 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 19:38:53 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Venta 2 de ETH por Usuario 2
+2025-08-13 19:38:53 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 19:38:53 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Usuario - Usuario creado: Comprador con saldo inicial de $100000.0 COP
+2025-08-13 19:38:53 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Comprador
+2025-08-13 19:38:53 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Compra para usuario Comprador
+2025-08-13 19:38:53 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: BTC para transacción de usuario Comprador
+2025-08-13 19:38:53 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 1 para transacción de usuario Comprador
+2025-08-13 19:38:53 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Compra 1 de BTC por Comprador
+2025-08-13 19:38:53 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Compra 1 de BTC por Comprador
+2025-08-13 19:38:53 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 19:38:53 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Usuario - Usuario creado: Test con saldo inicial de $1000.0 COP
+2025-08-13 19:38:53 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Test
+2025-08-13 19:38:53 [main] ERROR parciales.model.Transaccion - Error al establecer tipo de transacción: Tipo de transacción inválido. Solo se permiten 'Compra' o 'Venta'
+2025-08-13 19:38:53 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.services.ReporteService - Procesando 1 usuarios para el reporte...
+2025-08-13 19:38:53 [main] INFO  parciales.model.Usuario - Valor del portafolio calculado para usuario Test User: $0.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Usuario - Generado reporte de portafolio para usuario Test User: 0 tipos de criptomonedas
+2025-08-13 19:38:53 [main] INFO  parciales.model.Usuario - Generado historial de reportes para usuario Test User: 0 transacciones
+2025-08-13 19:38:53 [main] INFO  parciales.model.UsuarioReporte - Reporte de usuario creado: Test User - Saldo: $25.0 USD - Portafolio: $0.0 USD - Transacciones: 0
+2025-08-13 19:38:53 [main] INFO  parciales.services.ReporteService - Usuario procesado para reporte: Test User - Saldo: $25.0 USD - Portafolio: $0.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.services.ReporteService - Procesamiento de usuarios completado. 1 reportes generados
+2025-08-13 19:38:53 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Test User
+2025-08-13 19:38:53 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 5 para transacción de usuario Test User
+2025-08-13 19:38:53 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Test User
+2025-08-13 19:38:53 [main] ERROR parciales.model.Transaccion - Error al establecer tipo de transacción: Tipo de transacción inválido. Solo se permiten 'Compra' o 'Venta'
+2025-08-13 19:38:53 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:53 [main] ERROR parciales.model.Transaccion - Error al crear transacción: El usuario no puede ser nulo
+2025-08-13 19:38:53 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Test User
+2025-08-13 19:38:53 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Test User
+2025-08-13 19:38:53 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Compra para usuario Test User
+2025-08-13 19:38:53 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Test User
+2025-08-13 19:38:53 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: BTC para transacción de usuario Test User
+2025-08-13 19:38:53 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Test User
+2025-08-13 19:38:53 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Compra para usuario Test User
+2025-08-13 19:38:53 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: BTC para transacción de usuario Test User
+2025-08-13 19:38:53 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 1 para transacción de usuario Test User
+2025-08-13 19:38:53 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Compra 1 de BTC por Test User
+2025-08-13 19:38:53 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Compra 1 de BTC por Test User
+2025-08-13 19:38:53 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 19:38:53 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Test User
+2025-08-13 19:38:53 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Compra para usuario Test User
+2025-08-13 19:38:53 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: BTC para transacción de usuario Test User
+2025-08-13 19:38:53 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 1 para transacción de usuario Test User
+2025-08-13 19:38:53 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Compra 1 de BTC por Test User
+2025-08-13 19:38:53 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Compra 1 de BTC por Test User
+2025-08-13 19:38:53 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 19:38:53 [main] ERROR parciales.services.TransactionProcessorService - Error al agregar transacción a la cola: La transacción no puede ser nula
+2025-08-13 19:38:53 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:53 [main] ERROR parciales.model.Usuario - Error al crear usuario: El saldo inicial no puede ser negativo
+2025-08-13 19:38:53 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:53 [main] ERROR parciales.model.Usuario - Error al crear usuario: El nombre del usuario no puede ser nulo o vacío
+2025-08-13 19:38:53 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Usuario - Saldo aumentado en $25000.0 COP para usuario Test User. Nuevo saldo: $125000.0 COP
+2025-08-13 19:38:53 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:53 [main] ERROR parciales.model.Usuario - Error al crear usuario: El nombre del usuario no puede ser nulo o vacío
+2025-08-13 19:38:53 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Usuario - Usuario creado: Juan Pérez con saldo inicial de $50000.0 COP
+2025-08-13 19:38:53 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:53 [main] ERROR parciales.model.Criptomoneda - Error al establecer símbolo de criptomoneda: El símbolo de la criptomoneda no puede ser nulo o vacío
+2025-08-13 19:38:53 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: cardano
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ADA
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Cardano
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ADA: $1.50 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:53 [main] ERROR parciales.model.Criptomoneda - Error al establecer precio de criptomoneda: El precio no puede ser negativo
+2025-08-13 19:38:53 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:53 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:53 [main] INFO  parciales.services.GetApi - Iniciando llamada a la API de criptomonedas...
+2025-08-13 19:38:53 [main] INFO  parciales.services.GetApi - Enviando solicitud HTTP a: https://api.coinlore.net/api/tickers/
+2025-08-13 19:38:54 [main] INFO  parciales.services.GetApi - API consultada exitosamente. Se obtuvieron 100 criptomonedas
+2025-08-13 19:38:54 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:54 [main] INFO  parciales.model.Usuario - Usuario creado: Usuario 1 con saldo inicial de $50000.0 COP
+2025-08-13 19:38:54 [main] INFO  parciales.model.Usuario - Usuario creado: Usuario 2 con saldo inicial de $75000.0 COP
+2025-08-13 19:38:54 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Usuario 1
+2025-08-13 19:38:54 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Compra para usuario Usuario 1
+2025-08-13 19:38:54 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: BTC para transacción de usuario Usuario 1
+2025-08-13 19:38:54 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 1 para transacción de usuario Usuario 1
+2025-08-13 19:38:54 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Usuario 2
+2025-08-13 19:38:54 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Venta para usuario Usuario 2
+2025-08-13 19:38:54 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: ETH para transacción de usuario Usuario 2
+2025-08-13 19:38:54 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 2 para transacción de usuario Usuario 2
+2025-08-13 19:38:54 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Compra 1 de BTC por Usuario 1
+2025-08-13 19:38:54 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Venta 2 de ETH por Usuario 2
+2025-08-13 19:38:54 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Compra 1 de BTC por Usuario 1
+2025-08-13 19:38:54 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 19:38:54 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Venta 2 de ETH por Usuario 2
+2025-08-13 19:38:54 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 19:38:54 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:54 [main] INFO  parciales.model.Usuario - Usuario creado: Comprador con saldo inicial de $100000.0 COP
+2025-08-13 19:38:54 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Comprador
+2025-08-13 19:38:54 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Compra para usuario Comprador
+2025-08-13 19:38:54 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: BTC para transacción de usuario Comprador
+2025-08-13 19:38:54 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 1 para transacción de usuario Comprador
+2025-08-13 19:38:54 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Compra 1 de BTC por Comprador
+2025-08-13 19:38:54 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Compra 1 de BTC por Comprador
+2025-08-13 19:38:54 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 19:38:54 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:54 [main] INFO  parciales.model.Usuario - Usuario creado: Test con saldo inicial de $1000.0 COP
+2025-08-13 19:38:54 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Test
+2025-08-13 19:38:54 [main] ERROR parciales.model.Transaccion - Error al establecer tipo de transacción: Tipo de transacción inválido. Solo se permiten 'Compra' o 'Venta'
+2025-08-13 19:38:54 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:54 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:54 [main] INFO  parciales.services.ReporteService - Procesando 1 usuarios para el reporte...
+2025-08-13 19:38:54 [main] INFO  parciales.model.Usuario - Valor del portafolio calculado para usuario Test User: $0.0 USD
+2025-08-13 19:38:54 [main] INFO  parciales.model.Usuario - Generado reporte de portafolio para usuario Test User: 0 tipos de criptomonedas
+2025-08-13 19:38:54 [main] INFO  parciales.model.Usuario - Generado historial de reportes para usuario Test User: 0 transacciones
+2025-08-13 19:38:54 [main] INFO  parciales.model.UsuarioReporte - Reporte de usuario creado: Test User - Saldo: $25.0 USD - Portafolio: $0.0 USD - Transacciones: 0
+2025-08-13 19:38:54 [main] INFO  parciales.services.ReporteService - Usuario procesado para reporte: Test User - Saldo: $25.0 USD - Portafolio: $0.0 USD
+2025-08-13 19:38:54 [main] INFO  parciales.services.ReporteService - Procesamiento de usuarios completado. 1 reportes generados
+2025-08-13 19:38:54 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:54 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Test User
+2025-08-13 19:38:54 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 5 para transacción de usuario Test User
+2025-08-13 19:38:54 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:54 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Test User
+2025-08-13 19:38:54 [main] ERROR parciales.model.Transaccion - Error al establecer tipo de transacción: Tipo de transacción inválido. Solo se permiten 'Compra' o 'Venta'
+2025-08-13 19:38:54 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:54 [main] ERROR parciales.model.Transaccion - Error al crear transacción: El usuario no puede ser nulo
+2025-08-13 19:38:54 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:54 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Test User
+2025-08-13 19:38:54 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:54 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Test User
+2025-08-13 19:38:54 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Compra para usuario Test User
+2025-08-13 19:38:54 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:54 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Test User
+2025-08-13 19:38:54 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: BTC para transacción de usuario Test User
+2025-08-13 19:38:54 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:54 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Test User
+2025-08-13 19:38:54 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Compra para usuario Test User
+2025-08-13 19:38:54 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: BTC para transacción de usuario Test User
+2025-08-13 19:38:54 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 1 para transacción de usuario Test User
+2025-08-13 19:38:54 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Compra 1 de BTC por Test User
+2025-08-13 19:38:54 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Compra 1 de BTC por Test User
+2025-08-13 19:38:54 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 19:38:54 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:54 [main] INFO  parciales.model.Transaccion - Transacción creada para usuario: Test User
+2025-08-13 19:38:54 [main] INFO  parciales.model.Transaccion - Tipo de transacción establecido: Compra para usuario Test User
+2025-08-13 19:38:54 [main] INFO  parciales.model.Transaccion - Criptomoneda establecida: BTC para transacción de usuario Test User
+2025-08-13 19:38:54 [main] INFO  parciales.model.Transaccion - Cantidad establecida: 1 para transacción de usuario Test User
+2025-08-13 19:38:54 [main] INFO  parciales.services.TransactionProcessorService - Transacción agregada a la cola: Compra 1 de BTC por Test User
+2025-08-13 19:38:54 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:54 [main] INFO  parciales.services.TransactionProcessorService - Transacción extraída de la cola: Compra 1 de BTC por Test User
+2025-08-13 19:38:54 [main] INFO  parciales.services.TransactionProcessorService - Procesando siguiente transacción...
+2025-08-13 19:38:54 [main] ERROR parciales.services.TransactionProcessorService - Error al agregar transacción a la cola: La transacción no puede ser nula
+2025-08-13 19:38:54 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:54 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:54 [main] ERROR parciales.model.Usuario - Error al crear usuario: El saldo inicial no puede ser negativo
+2025-08-13 19:38:54 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:54 [main] ERROR parciales.model.Usuario - Error al crear usuario: El nombre del usuario no puede ser nulo o vacío
+2025-08-13 19:38:54 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:54 [main] INFO  parciales.model.Usuario - Saldo aumentado en $25000.0 COP para usuario Test User. Nuevo saldo: $125000.0 COP
+2025-08-13 19:38:54 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:54 [main] ERROR parciales.model.Usuario - Error al crear usuario: El nombre del usuario no puede ser nulo o vacío
+2025-08-13 19:38:54 [main] INFO  parciales.model.Usuario - Usuario creado: Test User con saldo inicial de $100000.0 COP
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: bitcoin
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: BTC
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Bitcoin
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda BTC: $50000.0 USD
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - ID establecido para criptomoneda: ethereum
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Símbolo establecido para criptomoneda: ETH
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Nombre establecido para criptomoneda: Ethereum
+2025-08-13 19:38:54 [main] INFO  parciales.model.Criptomoneda - Precio establecido para criptomoneda ETH: $3000.0 USD
+2025-08-13 19:38:54 [main] INFO  parciales.model.Usuario - Usuario creado: Juan Pérez con saldo inicial de $50000.0 COP
