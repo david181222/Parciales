@@ -3,12 +3,6 @@
  */
 package parciales;
 
-<<<<<<< Updated upstream
-public class App {
-
-//main
-    public static void main(String[] args) {
-=======
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
@@ -125,6 +119,5 @@ public class App {
         } catch (Exception e) {
             throw new RuntimeException("Ocurrió un error en la aplicación: " + e.getMessage());
         }
->>>>>>> Stashed changes
     }
 }

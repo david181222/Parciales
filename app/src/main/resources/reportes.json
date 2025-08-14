@@ -1,133 +1,14 @@
 [
   {
     "nombreReporte": "User 1",
-    "saldoUSDReporte": 135.0807999999998,
-    "valorPortafolioReporte": 15812.479999999998,
+    "saldoUSDReporte": 2243.054,
+    "valorPortafolioReporte": 37.75,
     "portafolioReporte": [
       {
-        "nombreCriptomoneda": "Jito Staked SOL",
-        "cantidadCriptomoneda": 8
-      }
-    ],
-    "historialReporte": [
-      {
-        "estatus": "Valida",
-        "tipoTransaccion": "Compra",
-        "nombreCriptomoneda": "Jito Staked SOL",
-        "simboloCriptomoneda": "JITOSOL",
-        "cantidad": 8,
-        "precioUSD": 247.07,
-        "valorTransaccionCOP": 7906240.0
-      },
-      {
-        "estatus": "Invalida",
-        "tipoTransaccion": "Venta",
-        "nombreCriptomoneda": "Polkadot",
-        "simboloCriptomoneda": "DOT",
-        "cantidad": 2,
-        "precioUSD": 4.28,
-        "valorTransaccionCOP": 34240.0
-      }
-    ]
-  },
-  {
-    "nombreReporte": "User 2",
-    "saldoUSDReporte": 22499.479657450003,
-    "valorPortafolioReporte": 0.571805,
-    "portafolioReporte": [
-      {
-        "nombreCriptomoneda": "Arbitrum",
-        "cantidadCriptomoneda": 1
-      }
-    ],
-    "historialReporte": [
-      {
-        "estatus": "Invalida",
-        "tipoTransaccion": "Venta",
-        "nombreCriptomoneda": "Mantle Staked Ether",
-        "simboloCriptomoneda": "METH",
-        "cantidad": 3,
-        "precioUSD": 5091.24,
-        "valorTransaccionCOP": 6.109488E7
-      },
-      {
-        "estatus": "Valida",
-        "tipoTransaccion": "Compra",
-        "nombreCriptomoneda": "Arbitrum",
-        "simboloCriptomoneda": "ARB",
-        "cantidad": 1,
-        "precioUSD": 0.571805,
-        "valorTransaccionCOP": 2287.2200000000003
-      }
-    ]
-  },
-  {
-    "nombreReporte": "User 3",
-    "saldoUSDReporte": 22498.151191,
-    "valorPortafolioReporte": 10.047875,
-    "portafolioReporte": [
-      {
-        "nombreCriptomoneda": "Pi",
+        "nombreCriptomoneda": "Lido DAO",
         "cantidadCriptomoneda": 5
       }
     ],
-    "historialReporte": [
-      {
-        "estatus": "Valida",
-        "tipoTransaccion": "Compra",
-        "nombreCriptomoneda": "Pi",
-        "simboloCriptomoneda": "PI",
-        "cantidad": 5,
-        "precioUSD": 0.401915,
-        "valorTransaccionCOP": 8038.299999999999
-      },
-      {
-        "estatus": "Invalida",
-        "tipoTransaccion": "Venta",
-        "nombreCriptomoneda": "Ethereum Classic",
-        "simboloCriptomoneda": "ETC",
-        "cantidad": 2,
-        "precioUSD": 24.3,
-        "valorTransaccionCOP": 194400.0
-      }
-    ]
-  },
-  {
-    "nombreReporte": "User 4",
-    "saldoUSDReporte": 22206.198,
-    "valorPortafolioReporte": 958.0500000000001,
-    "portafolioReporte": [
-      {
-        "nombreCriptomoneda": "OKB",
-        "cantidadCriptomoneda": 3
-      }
-    ],
-    "historialReporte": [
-      {
-        "estatus": "Invalida",
-        "tipoTransaccion": "Compra",
-        "nombreCriptomoneda": "Wrapped Bitcoin",
-        "simboloCriptomoneda": "WBTC",
-        "cantidad": 2,
-        "precioUSD": 123359.78,
-        "valorTransaccionCOP": 9.8687824E8
-      },
-      {
-        "estatus": "Valida",
-        "tipoTransaccion": "Compra",
-        "nombreCriptomoneda": "OKB",
-        "simboloCriptomoneda": "OKB",
-        "cantidad": 3,
-        "precioUSD": 106.45,
-        "valorTransaccionCOP": 1277400.0
-      }
-    ]
-  },
-  {
-    "nombreReporte": "User 5",
-    "saldoUSDReporte": 22500.0,
-    "valorPortafolioReporte": 0.0,
-    "portafolioReporte": [],
     "historialReporte": [
       {
         "estatus": "Invalida",
@@ -135,17 +16,135 @@
         "nombreCriptomoneda": "XRP",
         "simboloCriptomoneda": "XRP",
         "cantidad": 4,
-        "precioUSD": 3.29,
-        "valorTransaccionCOP": 52640.0
+        "precioUSD": 3.28,
+        "valorTransaccionCOP": 52480.0
+      },
+      {
+        "estatus": "Valida",
+        "tipoTransaccion": "Compra",
+        "nombreCriptomoneda": "Lido DAO",
+        "simboloCriptomoneda": "LDO",
+        "cantidad": 5,
+        "precioUSD": 1.51,
+        "valorTransaccionCOP": 30200.0
+      }
+    ]
+  },
+  {
+    "nombreReporte": "User 2",
+    "saldoUSDReporte": 22500.0,
+    "valorPortafolioReporte": 0.0,
+    "portafolioReporte": [],
+    "historialReporte": [
+      {
+        "estatus": "Invalida",
+        "tipoTransaccion": "Venta",
+        "nombreCriptomoneda": "Fasttoken",
+        "simboloCriptomoneda": "FTN",
+        "cantidad": 5,
+        "precioUSD": 4.57,
+        "valorTransaccionCOP": 91400.0
       },
       {
         "estatus": "Invalida",
         "tipoTransaccion": "Venta",
-        "nombreCriptomoneda": "XRP",
-        "simboloCriptomoneda": "XRP",
+        "nombreCriptomoneda": "Vaulta",
+        "simboloCriptomoneda": "A",
+        "cantidad": 4,
+        "precioUSD": 0.57149,
+        "valorTransaccionCOP": 9143.84
+      }
+    ]
+  },
+  {
+    "nombreReporte": "User 3",
+    "saldoUSDReporte": 22469.5828,
+    "valorPortafolioReporte": 249.93999999999997,
+    "portafolioReporte": [
+      {
+        "nombreCriptomoneda": "Fartcoin",
+        "cantidadCriptomoneda": 5
+      },
+      {
+        "nombreCriptomoneda": "Filecoin",
+        "cantidadCriptomoneda": 9
+      }
+    ],
+    "historialReporte": [
+      {
+        "estatus": "Valida",
+        "tipoTransaccion": "Compra",
+        "nombreCriptomoneda": "Filecoin",
+        "simboloCriptomoneda": "FIL",
         "cantidad": 9,
-        "precioUSD": 3.29,
-        "valorTransaccionCOP": 118440.0
+        "precioUSD": 2.74,
+        "valorTransaccionCOP": 98640.00000000001
+      },
+      {
+        "estatus": "Valida",
+        "tipoTransaccion": "Compra",
+        "nombreCriptomoneda": "Fartcoin",
+        "simboloCriptomoneda": "FARTCOIN",
+        "cantidad": 5,
+        "precioUSD": 1.12,
+        "valorTransaccionCOP": 22400.000000000004
+      }
+    ]
+  },
+  {
+    "nombreReporte": "User 4",
+    "saldoUSDReporte": 22500.0,
+    "valorPortafolioReporte": 0.0,
+    "portafolioReporte": [],
+    "historialReporte": [
+      {
+        "estatus": "Invalida",
+        "tipoTransaccion": "Venta",
+        "nombreCriptomoneda": "Mantle Staked Ether",
+        "simboloCriptomoneda": "METH",
+        "cantidad": 6,
+        "precioUSD": 5059.36,
+        "valorTransaccionCOP": 1.2142463999999999E8
+      },
+      {
+        "estatus": "Invalida",
+        "tipoTransaccion": "Venta",
+        "nombreCriptomoneda": "PancakeSwap",
+        "simboloCriptomoneda": "CAKE",
+        "cantidad": 1,
+        "precioUSD": 2.93,
+        "valorTransaccionCOP": 11720.0
+      }
+    ]
+  },
+  {
+    "nombreReporte": "User 5",
+    "saldoUSDReporte": 22491.818071740003,
+    "valorPortafolioReporte": 74.38116599999998,
+    "portafolioReporte": [
+      {
+        "nombreCriptomoneda": "Theta Token",
+        "cantidadCriptomoneda": 9
+      }
+    ],
+    "historialReporte": [
+      {
+        "estatus": "Valida",
+        "tipoTransaccion": "Compra",
+        "nombreCriptomoneda": "Theta Token",
+        "simboloCriptomoneda": "THETA",
+        "cantidad": 9,
+        "precioUSD": 0.918286,
+        "valorTransaccionCOP": 33058.296
+      },
+      {
+        "estatus": "Invalida",
+        "tipoTransaccion": "Venta",
+        "nombreCriptomoneda": "TRON",
+        "simboloCriptomoneda": "TRX",
+        "cantidad": 4,
+        "precioUSD": 0.361914,
+        "valorTransaccionCOP": 5790.624
       }
     ]
   }

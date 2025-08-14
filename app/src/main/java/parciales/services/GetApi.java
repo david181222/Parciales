@@ -1,10 +1,5 @@
 package parciales.services;
 
-<<<<<<< Updated upstream
-public class GetApi {
-    
-}
-=======
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
@@ -64,4 +59,3 @@ public class GetApi {
         }
     }
 }
->>>>>>> Stashed changes
